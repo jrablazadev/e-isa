@@ -1,0 +1,48 @@
+
+.header
+{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.tab-content *:not(.font-initial)
+{
+    font-size:12px;
+}
+.cbResultSetLabelLink:hover, .cbResultSetActionsLinks:hover{
+    font-size:12px !important;
+}
+
+.tab-content td,
+.tab-content th
+{
+    padding:5px !important;
+}
+
+#cb-team-scratchpad tr[data-cb-name="data"] > *:nth-child(2),
+#cb-team-myapproval tr[data-cb-name="data"] > *:nth-child(2),
+#cb-team-upcoming tr[data-cb-name="data"] > *:nth-child(3),
+#cb-team-approved tr[data-cb-name="data"] > *:nth-child(2),
+#cb-team-dealsheet tr[data-cb-name="data"] > *:nth-child(2),
+#cb-team-contratphase tr[data-cb-name="data"] > *:nth-child(2),
+#cb-team-exec tr[data-cb-name="data"] > *:nth-child(2),
+#cb-team-breach tr[data-cb-name="data"] > *:nth-child(3),
+#cb-pricing-breach tr[data-cb-name="data"] > *:nth-child(3),
+#cb-credit-breach tr[data-cb-name="data"] > *:nth-child(3),
+#cb-finance-breach tr[data-cb-name="data"] > *:nth-child(3),
+#cb-procurement-breach tr[data-cb-name="data"] > *:nth-child(3),
+#cb-logicics-breach tr[data-cb-name="data"] > *:nth-child(3)
+#cb-clevel-breach tr[data-cb-name="data"] > *:nth-child(3)
+{
+    max-width:180px;
+    min-width:180px;
+    white-space: initial;
+    word-wrap:break-word;
+    text-align:left;
+}
+

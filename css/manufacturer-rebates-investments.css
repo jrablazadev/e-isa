@@ -1,0 +1,105 @@
+.cbResultSetGridNonEditableColumnNumberDate .Data,
+.Data,
+input[name^="InlineEdit"]
+{
+	text-align:left !important;
+}
+
+.section-container
+{
+	overflow:auto;
+}
+
+.cbResultSetGridHeaderCellNumberDate
+{
+	text-transform:none !important;
+}
+
+input[type="text"]
+{
+	width:100px;
+	text-align:center;
+}
+
+.qty[data-investmentid="7"],.qty-details[data-investmentid="7"],
+.qty[data-investmentid="8"],.qty-details[data-investmentid="8"],
+.qty[data-investmentid="9"], .qty-details[data-investmentid="9"], /*for carryover from previous investment*/
+.qty[data-investmentid="10"],.qty-details[data-investmentid="10"],
+.qty[data-investmentid="25"],.qty-details[data-investmentid="25"],
+.qty[data-investmentid="26"],.qty-details[data-investmentid="26"],
+.qty[data-investmentid="43"],.qty-details[data-investmentid="43"],
+.customer-participation[data-investmentid="7"],
+.customer-participation[data-investmentid="8"],
+.customer-participation[data-investmentid="9"],
+.customer-participation[data-investmentid="10"],
+.customer-participation[data-investmentid="25"],
+.customer-participation[data-investmentid="26"],
+.customer-participation[data-investmentid="43"],
+.mfr-participation[data-investmentid="26"],
+.mfr-participation[data-investmentid="3"],
+.mfr-participation[data-investmentid="4"],
+#entryraw-container,
+.amount-contract[data-investmentid="17"],
+.amount-contract[data-investmentid="26"],
+.cb-investments-entry tr[data-cb-name="data"] > td:first-child,
+.cb-investments-entry tr[data-cb-name="header"] > th:first-child,
+.cb-investments-entry tr[data-cb-name="header"] > th:nth-child(8) ~ th,
+.cb-investments-entry tr[data-cb-name="data"] > td:nth-child(8) ~ td
+{
+	display:none;
+}
+
+.investmentname
+{
+	width:150px;
+	display:block;
+}
+
+.cb-mfr-rebates
+{
+	margin-bottom:50px;
+}
+
+.cb-mfg-support *[class^="cbFormCalendar"] img
+{
+	position: absolute !important;
+	padding-left: 100px !important;
+	margin-top: 0px !important;
+}
+
+.cb-mfg-support .cb-disabled
+{
+	background-color:#dedede !important;
+	cursor:not-allowed;
+}
+
+.cb-mfg-support table[data-cb-name="cbTable"] th
+{
+	background-color:#28a745!important;
+}
+
+.gray-background {
+    background-color: lightgray;
+}
+
+.finalized-asset-row input[type="text"]
+{
+	width:100px;
+}
+
+.finalized-asset-row input[type="text"]:read-only
+{
+	cursor:not-allowed;
+}
+
+.finalized-checkbox.disabled,
+.amount-contract:read-only
+{
+	cursor: not-allowed;
+	pointer-events: all !important;
+}
+
+.finalized-asset-row
+{
+	vertical-align: top;
+}

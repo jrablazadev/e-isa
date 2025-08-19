@@ -1,0 +1,27 @@
+.cbResultSetHeaderCellNumberDate, .cbResultSetHeaderCell
+{
+	text-align: right !important;
+	width: 10% !important;
+}
+
+tr[data-cb-name="data"] > td
+{
+	border:1px #dedede solid;
+}
+
+.isright
+{
+	text-align:right;
+}
+
+.bgblack td,
+.bgblack
+{
+	background-color:black !important;
+	color:white  !important;
+}
+
+.cb-cagr-entry-container div[class^="cbBackButtonContainer"]
+{
+	display:none;
+}

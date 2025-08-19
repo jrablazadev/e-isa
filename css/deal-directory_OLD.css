@@ -1,0 +1,211 @@
+.table-header {
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	background: #027faa;
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 12px;
+  }
+  .table-header {
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	background: #027faa;
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 12px;
+  }
+  
+  #cb-deal-directory table[data-cb-name="cbTable"] td,
+  #cb-deal-directory table[data-cb-name="cbTable"] th,
+  #cb-deal-directory table[data-cb-name="cbTable"] a,
+  #cb-deal-directory .cbFormTextField {
+	font-size: 12px !important;
+  }
+  
+  #cb-deal-directory tr[data-cb-name="header"] th a {
+	display: block;
+	white-space: initial;
+  }
+  
+  #cb-deal-directory *[data-cb-name="data"] td:nth-child(11) {
+	text-align: center;
+  }
+  
+  #cb-deal-directory *:not(i),
+  .cb-search input[type="text"],
+  .cb-search input[type="button"],
+  .cb-search input[type="submit"] {
+	font-size: 12px !important;
+  }
+  
+  #cb-deal-directory table[data-cb-name="cbTable"] tr > *:last-child {
+	display: none;
+  }
+  
+  .cb-search *[class^="cbSubmitButtonContainer"] {
+	display: none;
+  }
+  
+  .cb-search #caspioform > div {
+	margin: auto;
+  }
+  
+  #cb-relate-all-accounts tr[data-cb-name="header"] th a {
+	display: block;
+	white-space: initial;
+  }
+  
+  table {
+	width: 100% !important;
+  }
+  
+  .progress-value {
+	color: #1196ba;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .progress:hover .progress-value {
+	text-decoration: underline;
+  }
+  
+  .progress:hover {
+	cursor: pointer !important;
+  }
+  
+  #cb-deal-directory .dropdown-menu .dropdown-item {
+	display: inline-block;
+	vertical-align: top;
+  }
+  
+  #cb-deal-directory .dropdown-menu {
+	width: 500px;
+  }
+  
+  /* ISA Team, DSM */
+  form[action*="7229fa8e5f50432da038"] > div,
+  form[action*="99ba6cb5d82245a5b628"] > div,
+  form[action*="7fb89b3497914e4c9e47"] > div {
+	margin: auto;
+  }
+  
+  /* ISA Team, DSM */
+  form[action*="7229fa8e5f50432da038"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="3"],
+  form[action*="7229fa8e5f50432da038"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="4"],
+  form[action*="7229fa8e5f50432da038"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="5"],
+  form[action*="99ba6cb5d82245a5b628"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="3"],
+  form[action*="99ba6cb5d82245a5b628"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="4"],
+  form[action*="99ba6cb5d82245a5b628"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="5"],
+  form[action*="7fb89b3497914e4c9e47"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="3"],
+  form[action*="7fb89b3497914e4c9e47"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="4"],
+  form[action*="7fb89b3497914e4c9e47"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="5"] {
+	display: none;
+  }
+  
+  #cb-deal-directory table[data-cb-name="cbTable"] td,
+  #cb-deal-directory table[data-cb-name="cbTable"] th,
+  #cb-deal-directory table[data-cb-name="cbTable"] a,
+  #cb-deal-directory .cbFormTextField {
+	font-size: 12px !important;
+  }
+  
+  #cb-deal-directory tr[data-cb-name="header"] th a {
+	display: block;
+	white-space: initial;
+  }
+  
+  #cb-deal-directory *[data-cb-name="data"] td:nth-child(11) {
+	text-align: center;
+  }
+  
+  #cb-deal-directory *:not(i),
+  .cb-search input[type="text"],
+  .cb-search input[type="button"],
+  .cb-search input[type="submit"] {
+	font-size: 12px !important;
+  }
+  
+  #cb-deal-directory table[data-cb-name="cbTable"] tr > *:last-child {
+	display: none;
+  }
+  
+  .cb-search *[class^="cbSubmitButtonContainer"] {
+	display: none;
+  }
+  
+  .cb-search #caspioform > div {
+	margin: auto;
+  }
+  
+  #cb-relate-all-accounts tr[data-cb-name="header"] th a {
+	display: block;
+	white-space: initial;
+  }
+  
+  table {
+	width: 100% !important;
+  }
+  
+  .progress-value {
+	color: #1196ba;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .progress:hover .progress-value {
+	text-decoration: underline;
+  }
+  
+  .progress:hover {
+	cursor: pointer !important;
+  }
+  
+  #cb-deal-directory .dropdown-menu .dropdown-item {
+	display: inline-block;
+	vertical-align: top;
+  }
+  
+  #cb-deal-directory .dropdown-menu {
+	width: 500px;
+  }
+  
+  /* ISA Team, DSM */
+  form[action*="7229fa8e5f50432da038"] > div,
+  form[action*="99ba6cb5d82245a5b628"] > div,
+  form[action*="7fb89b3497914e4c9e47"] > div {
+	margin: auto;
+  }
+  
+  /* ISA Team, DSM */
+  form[action*="7229fa8e5f50432da038"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="3"],
+  form[action*="7229fa8e5f50432da038"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="4"],
+  form[action*="7229fa8e5f50432da038"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="5"],
+  form[action*="99ba6cb5d82245a5b628"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="3"],
+  form[action*="99ba6cb5d82245a5b628"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="4"],
+  form[action*="99ba6cb5d82245a5b628"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="5"],
+  form[action*="7fb89b3497914e4c9e47"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="3"],
+  form[action*="7fb89b3497914e4c9e47"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="4"],
+  form[action*="7fb89b3497914e4c9e47"]
+	*[class*="cbFormNestedTableContainer"][data-cb-row-expanded="5"] {
+	display: none;
+  }
+  

@@ -1,0 +1,100 @@
+.cb-report tr[data-cb-name="data"] td,
+.cb-report tr[data-cb-name="grand_total"] td,
+.cb-report tr[data-cb-name="header"] th,
+.cb-report a,
+.cb-report div,
+.cb-report input[type="text"],
+.cb-report label
+{
+	font-size:12px !important;
+	text-align:left;
+}
+
+.cb-report tr[data-cb-name="data"] td,
+.cb-report tr[data-cb-name="grand_total"] td,
+.cb-report tr[data-cb-name="header"] th,
+.cb-report label
+{
+	padding:5px;
+}
+
+.cb-header
+{
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	background: #027FAA;
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.cb-danger-icon
+{
+	color:red;
+	font-size:15px;
+}
+
+.cb-danger-light
+{
+	background-color:#FFE5E5 !important;
+}
+
+.cb-required-msg
+{
+	font-size:12px;
+	font-weight:700;
+	color:red;
+}
+
+#cb-doc-exep-report td,
+#cb-doc-exep-report th,
+#cb-doc-exep-report a,
+.cb-search
+{
+	font-size:12px;
+}
+
+#cb-doc-exep-report tr[data-cb-name="header"] th a
+{
+	display: block;
+	white-space: initial;
+}
+
+#cb-doc-exep-report .cb-red
+{
+	color:red;
+}
+
+#cb-doc-exep-report tr[data-cb-name="header"] th:nth-child(11) a
+{
+	width:70px;
+}
+
+#cb-doc-exep-report tr[data-cb-name="header"] th:nth-child(12) a,
+#cb-doc-exep-report tr[data-cb-name="header"] th:nth-child(14) a,
+#cb-doc-exep-report tr[data-cb-name="header"] th:nth-child(15) a
+{
+	width:75px;
+}
+
+#cb-doc-exep-report tr[data-cb-name="header"] th:nth-child(13) a
+{
+	width:55px;
+}
+
+.cb-search #caspioform > div
+{
+	margin:auto;
+}
+
+.cb-search *[class^="cbSubmitButtonContainer"]
+{
+	display:none;
+}
+
+.dropdown-menu
+{
+	list-style-type: none !important;
+}

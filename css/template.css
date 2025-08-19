@@ -1,0 +1,74 @@
+.cbFormRequiredMarker
+{
+    color:red !important;
+}
+
+img[alt="Calendar"]
+{
+    margin-left:-40px !important;
+}
+
+.isHidden
+{
+    display:none;
+}
+
+.part1
+{
+    margin-bottom:20px;
+}
+
+#cb-modal-body *
+{
+    font-size:12px !important;
+}
+
+.cb-relate-eisa
+{
+    height: 70vh;
+}
+
+*[name$="RecordCurrent_EISA_No"]
+{
+    background-color:#dedede !important;
+}
+
+.progressbar a.disabled,
+*[name$="RecordCurrent_EISA_No"]
+{
+    cursor:not-allowed;
+}
+
+.cb-search-customer
+{
+    background-color:#dedede;
+    border-color:#c5b5b5;
+}
+
+#cb-relate-all-accounts-add *[data-selected="Y"]
+{
+	display:none;
+}
+
+#cb-relate-all-accounts-add .cb-btn-filter,
+#cb-relate-all-accounts-add .cb-btn-reset
+{
+	font-size: 12px;
+	padding: 5px 15px 5px 15px;
+	max-width:75px;
+	margin:5px 0px 0px 0px;
+}
+
+
+#cb-relate-all-accounts-add *[class^="cbSearchButton"]
+{
+	display:none;
+}
+
+.cb-relate-all-accounts-msg
+{
+	color: red;
+	font-size: 12px;
+	display: block;
+	font-weight: bold;
+}

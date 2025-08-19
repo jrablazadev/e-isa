@@ -1,0 +1,156 @@
+/* modal */
+.jconfirm {
+  /*removed z-index because the calendar pop-up is not showing */
+  z-index: 0 !important;
+}
+
+.jconfirm section[data-cb-name="cbTable"] div:nth-child(9):not('form[action*="f43c7f0c59974384ad91"]'), /*excludes add paint part number*/
+.jconfirm section[data-cb-name="cbTable"] div:nth-child(10) {
+  padding-top: 0;
+}
+
+.jconfirm .alert-danger {
+  margin-bottom: 0;
+}
+
+.jconfirm li {
+  padding-left: 2rem !important;
+}
+
+.btn-light {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.filter-option-inner-inner {
+  color: black;
+}
+
+.filter-option-inner-inner {
+  font-size: small;
+}
+
+/* setup header */
+.paint-product .setup-header,
+.allied-product .setup-header {
+  display: flex;
+  gap: 5rem;
+}
+
+.paint-product .setup-header section div,
+.paint-product .setup-header section span,
+.allied-product .setup-header section div,
+.allied-product .setup-header section span {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.paint-product .paint-right-header li,
+.allied-product .paint-right-header li {
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.paint-product
+  .setup-totals
+  section[data-cb-name="cbTable"]
+  div:nth-child(n + 5),
+.paint-product .setup-totals .cbBackButtonContainer,
+.allied-product
+  .setup-totals
+  section[data-cb-name="cbTable"]
+  div:nth-child(n + 5),
+.allied-product .setup-totals .cbBackButtonContainer {
+  display: none;
+}
+
+.paint-product
+  .setup-totals
+  section[data-cb-name="cbTable"]
+  div:nth-child(even),
+.allied-product
+  .setup-totals
+  section[data-cb-name="cbTable"]
+  div:nth-child(even) {
+  text-align: right;
+}
+
+/* reports */
+.report {
+  overflow: auto;
+}
+
+/* paint product line */
+/* allied product line */
+.cb-product-report tr[data-cb-name="header"] th:nth-child(1),
+.cb-product-report tr[data-cb-name="data"] td:nth-child(1),
+.cb-product-report tr[data-cb-name="header"] th:last-child,
+.cb-product-report tr[data-cb-name="data"] td:last-child,
+.cb-product-report tr[data-cb-name="grand_total"] td:last-child,
+.cb-allied-report tr[data-cb-name="header"] th:nth-child(1),
+.cb-allied-report tr[data-cb-name="data"] td:nth-child(1),
+.cb-allied-report tr[data-cb-name="header"] th:last-child,
+.cb-allied-report tr[data-cb-name="data"] td:last-child,
+.cb-allied-report tr[data-cb-name="grand_total"] td:last-child {
+  display: none;
+}
+
+.cb-product-report tbody tr td:nth-child(11),
+.cb-product-report tbody tr td:nth-child(12),
+.cb-product-report tbody tr td:nth-child(13),
+.cb-allied-report tbody tr td:nth-child(11),
+.cb-allied-report tbody tr td:nth-child(12),
+.cb-allied-report tbody tr td:nth-child(13) {
+  background: #f2f2f2;
+}
+
+th {
+  white-space: normal !important;
+  word-wrap: break-word !important;
+}
+
+/*modal */
+.jconfirm .jconfirm-box div.jconfirm-content-pane .jconfirm-content:not(.cb-calculator-div) {
+  max-height: 70vh;
+  overflow-y: scroll !important;
+}
+
+.jconfirm .cbFormFieldCell > div {
+  height: 100% !important;
+}
+
+div.hide-div{
+  display: none;
+}
+
+/*part number */
+/*greyed out calculated fields: 
+- mfr margin
+- ncsssi industrial margin
+- ncsssi financials margin*/
+.cb-part-report tbody tr td:nth-child(18),
+.cb-part-report tbody tr td:nth-child(19),
+.cb-part-report tbody tr td:nth-child(20) {
+  background: #f2f2f2;
+}
+
+/*hide other fields*/
+.cb-part-report tr[data-cb-name="header"] th:nth-last-child(2),
+.cb-part-report tr[data-cb-name="header"] th:nth-last-child(3),
+.cb-part-report tr[data-cb-name="data"] td:nth-last-child(2),
+.cb-part-report tr[data-cb-name="data"] td:nth-last-child(3),
+.cb-part-report tr[data-cb-name="grand_total"] td:nth-last-child(2),
+.cb-part-report tr[data-cb-name="grand_total"] td:nth-last-child(3),
+/*hide delete btn*/
+.cb-part-report tr[data-cb-name="header"] th:last-child,
+.cb-part-report tr[data-cb-name="data"] td:last-child,
+.cb-part-report tr[data-cb-name="grand_total"] td:last-child
+ {
+  display: none;
+}
+
+.cb-missing-field {
+  /* border: 2px solid #e74c3c !important; */
+  background-color: rgb(255, 248, 225) !important;
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<?php include_once "../partials/head.php"; ?>
+	<title>E-ISA | My Deal Directory</title>
+</head>
+
+<body class="hide">
+	<?php include_once "../partials/navbar-bdm.php"; ?>
+
+	<main class="mb-5 ml-5 mr-5">
+		<div class="table-header mb-2 font-weight-bold bg-dark text-white">My Deal Directory</div>
+
+		<div class="mb-3" id="cb-deal-directory">
+			<script type="text/javascript" src="<?= $cb_datapage_prefix ?>99ba6cb5d82245a5b628/emb"></script>
+
+			<div class="text-center">
+				<div class="spinner-border text-primary" role="status"></div>
+			</div>
+		</div>
+	</main>
+
+	<script src="../lib/jquery-freeze-table-master/dist/js/freeze-table.min.js"></script>
+
+	<link rel="stylesheet" href="../lib/floating-scroll-master/dist/jquery.floatingscroll.css" media="screen" title="no title" charset="utf-8">
+	<script src="../lib/floating-scroll-master/dist/jquery.floatingscroll.min.js"></script>
+
+	<style>
+		<?php echo file_get_contents('../css/deal-directory.css'); ?>
+	</style>
+
+	<script>
+		<?php echo file_get_contents('../js/dashboard-relate-accounts.js'); ?>
+		<?php echo file_get_contents('../js/deal-directory.js'); ?>
+		
+		setInterval(function() {
+			if (!$('#nav-dd2').hasClass("active")) {
+				$('#nav-dd2').addClass('active');
+				$('#nav-dd').removeClass('active');
+			}
+		}, 300)
+	</script>
+</body>
+
+</html>

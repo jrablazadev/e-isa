@@ -1,0 +1,210 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - General - - - - - - - - - - - - - - - - - - - - -  */
+
+.cb-report tr[data-cb-name="data"] td,
+.cb-report tr[data-cb-name="grand_total"] td,
+.cb-report tr[data-cb-name="header"] th,
+.cb-report a,
+.cb-report div,
+.cb-report input[type="text"],
+.cb-report label
+{
+	font-size:12px !important;
+	text-align:left;
+}
+
+.cb-report tr[data-cb-name="data"] td,
+.cb-report tr[data-cb-name="grand_total"] td,
+.cb-report tr[data-cb-name="header"] th,
+.cb-report label
+{
+	padding:5px;
+}
+
+.cb-header
+{
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	background: #027FAA;
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.cb-danger-icon
+{
+	color:red;
+	font-size:15px;
+}
+
+.cb-danger-light
+{
+	background-color:#FFE5E5 !important;
+}
+
+.cb-required-msg
+{
+	font-size:12px;
+	font-weight:700;
+	color:red;
+}
+
+form[action*="be25b401c60b4dc7af23"] table input[type="checkbox"],
+form[action*="be1ca9d8a86f44989588"] table input[type="checkbox"],
+form[action*="f09a8e982c574eadb15a"] table input[type="checkbox"],
+form[action*="f12fc78dc2504400a849"] table input[type="checkbox"]
+{
+	display:none !important;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - Fixed Dollar Rebate - - - - - - - - - - - - - - - - - - - - -  */
+.cb-fdr tr[data-cb-name="grand_total"] td
+{
+	text-align:right;
+}
+
+.cb-fdr tr[data-cb-name="grand_total"] td:first-child
+{
+	text-align:right;
+}
+
+.cb-fdr tr[data-cb-name="grand_total"][data-cb-aggregation="Aggregate2"] td
+{
+	color:red;
+}
+
+.cb-fdr tr[data-cb-name="data"] td:nth-child(5),
+.cb-fdr tr[data-cb-name="data"] td:nth-child(8),
+.cb-fdr tr[data-cb-name="data"] td:nth-child(9)
+{
+	background-color:lightblue;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - Liquid Statement Rebate - - - - - - - - - - - - - - - - - - - - -  */
+
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(5),
+/* .cb-liquid-st tr[data-cb-name="data"] td:nth-child(6), */
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(7),
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(8),
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(9):not(.cb-danger-light),
+/* .cb-liquid-st tr[data-cb-name="data"] td:nth-child(11), */
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(12),
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(13),
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(14),
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(15),
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(16),
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(17)
+{
+	background-color:lightblue;
+}
+
+body:not(.user-group) .cb-liquid-st tr[data-cb-name="data"] td:nth-child(4)::after,
+body:not(.user-group) .cb-liquid-st tr[data-cb-name="data"] td:nth-child(9)::after,
+body.user-group .cb-liquid-st tr[data-cb-name="data"] td:nth-child(5)::after,
+body.user-group .cb-liquid-st tr[data-cb-name="data"] td:nth-child(10)::after
+{
+	content: " %";
+}
+
+.cb-liquid-st tr[data-cb-name="header"] th:nth-child(9),
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(9)
+{
+	border-left: 5px #174478 solid;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - Liquid EQ Rebate - - - - - - - - - - - - - - - - - - - - -  */
+
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(5),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(7),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(8),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(9),
+/* .cb-liquid-eq tr[data-cb-name="data"] td:nth-child(11), */
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(12),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(13),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(14),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(15),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(16),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(17)
+{
+	background-color:lightblue;
+}
+
+body:not(.user-group) .cb-liquid-eq tr[data-cb-name="data"] td:nth-child(4)::after,
+body:not(.user-group) .cb-liquid-eq tr[data-cb-name="data"] td:nth-child(9)::after,
+body.user-group .cb-liquid-eq tr[data-cb-name="data"] td:nth-child(5)::after,
+body.user-group .cb-liquid-eq tr[data-cb-name="data"] td:nth-child(10)::after
+{
+	content: " %";
+}
+
+.cb-liquid-eq tr[data-cb-name="header"] th:nth-child(9),
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(9)
+{
+	border-left: 5px #174478 solid;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - Allied Statement Rebate - - - - - - - - - - - - - - - - - - - - -  */
+
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(5),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(7),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(8),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(9),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(12),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(13),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(14),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(15),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(16)
+{
+	background-color:lightblue;
+}
+
+body:not(.user-group) .cb-allied-st tr[data-cb-name="data"] td:nth-child(4)::after,
+body:not(.user-group) .cb-allied-st tr[data-cb-name="data"] td:nth-child(9)::after,
+body.user-group .cb-allied-st tr[data-cb-name="data"] td:nth-child(5)::after,
+body.user-group .cb-allied-st tr[data-cb-name="data"] td:nth-child(10)::after
+{
+	content: " %";
+}
+
+.cb-allied-st tr[data-cb-name="header"] th:nth-child(9),
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(9)
+{
+	border-left: 5px #174478 solid;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - Allied EQ Rebate - - - - - - - - - - - - - - - - - - - - -  */
+
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(5),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(7),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(8),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(9),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(12),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(13),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(14),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(15),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(16)
+{
+	background-color:lightblue;
+}
+
+body:not(.user-group) .cb-allied-eq tr[data-cb-name="data"] td:nth-child(4)::after,
+body:not(.user-group) .cb-allied-eq tr[data-cb-name="data"] td:nth-child(9)::after,
+body.user-group .cb-allied-eq tr[data-cb-name="data"] td:nth-child(5)::after,
+body.user-group .cb-allied-eq tr[data-cb-name="data"] td:nth-child(10)::after
+{
+	content: " %";
+}
+
+.cb-allied-eq tr[data-cb-name="header"] th:nth-child(9),
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(9)
+{
+	border-left: 5px #174478 solid;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - Prompt Pay - - - - - - - - - - - - - - - - - - - - -  */
+
+.cb-prompt-pay tr[data-cb-name="data"] td:nth-child(4)
+{
+	background-color:lightblue;
+}

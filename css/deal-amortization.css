@@ -1,0 +1,40 @@
+.table-header
+{
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	background: #027FAA;
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 12px;
+}
+
+table[data-cb-name="cbTable"] td,
+table[data-cb-name="cbTable"] th,
+table[data-cb-name="cbTable"] a,
+.cb-deal-amortization label,
+.cb-deal-amortization button,
+.cb-deal-amortization input[type="text"],
+*[class^="cbSearchButton"],
+.cbFormTextField
+{
+	font-size:12px !important;
+}
+
+.cb-legal-name[data-value=""],
+.cb-city[data-value=""],
+.cb-state[data-value=""]
+{
+	display:none;
+}
+
+*[class^="cbSearchButtonContainer"]
+{
+	display:none;
+}
+
+.cb-cog
+{
+	display:inline-block;
+}

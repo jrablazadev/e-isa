@@ -1,0 +1,77 @@
+/*
+	this is a shared js file in the ff. php files:
+	shared/log1c-fee-summary.php
+	shared/mfr-fee-summary.php
+*/
+
+form[action*="fe071b40a6c14593929a"] .HeadCtnr .cbResultSetGridTableHeader label,
+form[action*="171bb4baaf5a49b68b5e"] .HeadCtnr .cbResultSetGridTableHeader label
+{
+	display: block;
+	white-space: initial;
+}
+
+/* Select Account column in edit mode */
+.HeadCtnr table[class="Table"] > tbody > tr > th:nth-child(1),
+.BodyCtnr table[class="Table"] > thead > tr > th:nth-child(1), 
+.BodyCtnr table[class="Table"] > tbody > tr > td:nth-child(1) div 
+{
+	width: 400px !important;
+}
+
+/* Company Name column in edit mode */
+.HeadCtnr table[class="Table"] > tbody > tr > th:nth-child(2),
+.BodyCtnr table[class="Table"] > thead > tr > th:nth-child(2), 
+.BodyCtnr table[class="Table"] > tbody > tr > td:nth-child(2) div 
+{
+	width: 300px !important;
+}
+
+/* HAS LOG1C ICS INSTALL column in edit mode */
+*[action*="fe071b40a6c14593929a"] .HeadCtnr table[class="Table"] > tbody > tr > th:nth-child(7),
+*[action*="fe071b40a6c14593929a"] .BodyCtnr table[class="Table"] > thead > tr > th:nth-child(7), 
+*[action*="fe071b40a6c14593929a"] .BodyCtnr table[class="Table"] > tbody > tr > td:nth-child(7) div
+{
+	width: 300px !important;
+}
+
+/* HAS COLOR SOFTWARE in edit mode */
+*[action*="171bb4baaf5a49b68b5e"] .HeadCtnr table[class="Table"] > tbody > tr > th:nth-child(7),
+*[action*="171bb4baaf5a49b68b5e"] .BodyCtnr table[class="Table"] > thead > tr > th:nth-child(7), 
+*[action*="171bb4baaf5a49b68b5e"] .BodyCtnr table[class="Table"] > tbody > tr > td:nth-child(7) div 
+{
+	width: 400px !important;
+}
+
+/* Color Camera in edit mode */
+*[action*="171bb4baaf5a49b68b5e"] .HeadCtnr table[class="Table"] > tbody > tr > th:nth-child(11),
+*[action*="171bb4baaf5a49b68b5e"] .BodyCtnr table[class="Table"] > thead > tr > th:nth-child(11), 
+*[action*="171bb4baaf5a49b68b5e"] .BodyCtnr table[class="Table"] > tbody > tr > td:nth-child(11) div 
+{
+	width: 200px !important;
+}
+
+/* Color Box in edit mode */
+*[action*="171bb4baaf5a49b68b5e"] .HeadCtnr table[class="Table"] > tbody > tr > th:nth-child(12),
+*[action*="171bb4baaf5a49b68b5e"] .BodyCtnr table[class="Table"] > thead > tr > th:nth-child(12), 
+*[action*="171bb4baaf5a49b68b5e"] .BodyCtnr table[class="Table"] > tbody > tr > td:nth-child(12) div 
+{
+	width: 200px !important;
+}
+
+/* .HeadCtnr table[class="Table"] > tbody > tr > th,
+.BodyCtnr table[class="Table"] > thead > tr > th,  */
+.BodyCtnr table[class="Table"] > tbody > tr > td 
+{
+	height:40px;
+}
+
+#DropBox
+{
+	width: 400px;
+}
+
+.Row .Data
+{
+	height:initial !important;
+}

@@ -1,0 +1,33 @@
+table[data-cb-name="cbTable"] td,
+table[data-cb-name="cbTable"] th,
+table[data-cb-name="cbTable"] a
+{
+	font-size:12px !important;
+}
+
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(3)::after,
+.cb-liquid-st tr[data-cb-name="data"] td:nth-child(7)::after
+{
+	content: ' %'
+}
+
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(3)::after,
+.cb-liquid-eq tr[data-cb-name="data"] td:nth-child(7)::after
+{
+	content: ' %'
+}
+
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(3)::after,
+.cb-allied-st tr[data-cb-name="data"] td:nth-child(7)::after
+{
+	content: ' %'
+}
+
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(3)::after,
+.cb-allied-eq tr[data-cb-name="data"] td:nth-child(7)::after
+{
+	content: ' %'
+}
+.cbResultSetCalculatedField {
+	text-align: center !important;
+}

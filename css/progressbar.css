@@ -1,0 +1,123 @@
+/* .container {
+        width: 600px;
+        margin: 100px auto; 
+    } */
+    .progressbar {
+        counter-reset: step;
+        padding: 10px 10px 10px 10px;
+		
+    }
+    .progressbar li {
+        list-style-type: none;
+        width: 8%;
+        float: left;
+        font-size: 10px;
+        position: relative;
+        text-align: center;
+        text-transform: uppercase;
+        color: #7d7d7d;
+		font-weight:bold;
+    }
+    .progressbar li:before {
+        width: 30px;
+        height: 30px;
+        content: counter(step);
+        counter-increment: step;
+        line-height: 30px;
+        border: 2px solid #dedede;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .progressbar li:after {
+        width: 100%;
+        height: 2px;
+        content: '';
+        position: absolute;
+        background-color: #dedede;
+        top: 15px;
+        left: -50%;
+        z-index: -1;
+    }
+    .progressbar li:first-child:after {
+        content: none;
+    }
+    .progressbar li.active {
+        color: green;
+    }
+    .progressbar li.active:before {
+        border-color: #55b776;
+    }
+    .progressbar li.active + li:after {
+        background-color: #55b776;
+    }
+
+    /* .progressbar #progressbargroup1
+    {
+            color:#1195BB;
+            font-weight:bold;
+    }
+
+    .progressbar li#progressbargroup1.active {
+        color: #1195BB;
+    }
+    .progressbar li#progressbargroup1.active:before {
+        border-color: #1195BB;
+    }
+    .progressbar li#progressbargroup1.active + li:after {
+        background-color: #1195BB;
+    }
+
+    .progressbar li#progressbargroup2.active {
+        color: #FF7610;
+    }
+    .progressbar li#progressbargroup2.active:before {
+        border-color: #FF7610;
+    }
+    .progressbar li#progressbargroup2.active + li:after {
+        background-color: #FF7610;
+    }
+
+    .progressbar li#progressbargroup3.active {
+        color: #67B204;
+    }
+    .progressbar li#progressbargroup3.active:before {
+        border-color: #67B204;
+    }
+    .progressbar li#progressbargroup3.active + li:after {
+        background-color: #67B204;
+    }
+
+    .progressbar li#progressbargroup4.active {
+        color: #747d82;
+    }
+    .progressbar li#progressbargroup4.active:before {
+        border-color: #747d82;
+    }
+    .progressbar li#progressbargroup4.active + li:after {
+        background-color: #747d82;
+    } */
+
+    ul.progressbar
+    {
+        width:100% !important;
+    }
+
+@media (max-width: 830px)
+{
+        #progressbargroup1,
+        #progressbargroup2,
+        #progressbargroup3,
+        #progressbargroup4
+        {
+                font-size:10px !important;
+        }
+
+        
+}
+
+.progressbar li.disabled:after{
+    background-color: #dedede !important;
+}

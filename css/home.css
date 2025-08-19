@@ -1,0 +1,258 @@
+*,
+textarea
+{
+        font-family: 'Lato', sans-serif !important;
+        font-weight:normal;
+        font-size:15px !important;
+        color:black;
+}
+
+#conferencetitle,
+#conferencenextbtn
+{
+        background-color: #1195BB;
+}
+
+#academytitle,
+#academybackbtn,
+#academynextbtn
+{
+        background-color:#FF7610;
+}
+
+#techtitle,
+#techbackbtn,
+#technextbtn
+{
+        background-color:#67B204;
+}
+
+#futuretitle,
+#futurebackbtn,
+#savebtn
+{
+        background-color:#747d82;
+}
+
+#conferencenextbtn,
+#academybackbtn,
+#academynextbtn,
+#techbackbtn,
+#technextbtn,
+#futurebackbtn,
+#savebtn
+{
+        font-weight:bold;
+        color:white;
+        border-radius: 6px;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        border:none;
+        padding:10px;
+}
+
+#conferencetitle,
+#academytitle,
+#techtitle,
+#futuretitle
+{
+        color:white;
+        padding:10px;
+        font-weight:900px;
+        font-size: 30px;
+        font-weight:bold;
+        text-align:center;
+        text-transform: uppercase;
+}
+
+
+#caspioform > table:eq(0) > tbody:eq(0) > tr:eq(0) > td:eq(0) > table:eq(0)
+{
+        border-style:none;
+}
+
+tr.group1 div.br-widget a,
+tr.group2 div.br-widget a,
+tr.group3 div.br-widget a,
+tr.group4 div.br-widget a
+{
+        background-color: #dedede;
+}
+
+tr.group1 div.br-widget a.br-selected,
+tr.group1 div.br-widget a.br-active
+{
+        background-color: #1195BB;
+}
+
+tr.group1 div.br-widget div.br-current-rating
+{
+        color:#1195BB;
+}
+
+tr.group2 div.br-widget a.br-selected,
+tr.group2 div.br-widget a.br-active
+{
+        background-color: #FF7610;
+}
+
+tr.group2 div.br-widget div.br-current-rating
+{
+        color:#FF7610;
+}
+
+tr.group3 div.br-widget a.br-selected,
+tr.group3 div.br-widget a.br-active
+{
+        background-color: #67B204;
+}
+
+tr.group3 div.br-widget div.br-current-rating
+{
+        color:#67B204;
+}
+
+tr.group4 div.br-widget a.br-selected,
+tr.group4 div.br-widget a.br-active
+{
+        background-color: #747d82 ;
+}
+
+tr.group4 div.br-widget div.br-current-rating
+{
+        color:#747d82 ;
+}
+
+
+div.mylabel,
+div.br-widget div.br-current-rating
+{
+        font-weight: bold !important;
+}
+
+.desktopview2ndmargin
+{
+        margin-left:262px;
+}
+
+table.subquestionsdesktopview
+{
+        margin-left:362px;
+}
+
+span
+{
+        vertical-align:top;
+}
+
+div.btncontainer
+{
+        text-align: center;
+}
+
+/*
+        main table width
+
+
+
+#caspioform table:nth-child(1) table:nth-child(1) > tbody:nth-child(1) > tr > td > table:nth-child(1)
+{
+        
+        width:100% !important;
+}
+
+*/
+
+#caspioform table:nth-child(1) table:nth-child(1) > tbody:nth-child(1) > tr > td > table:nth-child(1)
+{
+        width:90% !important;
+}
+
+div.br-current-rating
+{
+        width:120px;
+}
+
+.questionlabel2
+{
+        float:left;
+}
+
+#caspioform > table,
+#progressbarcontainer
+{
+        margin:auto;
+        width:840px;
+}
+
+
+label.questionlabel1
+{
+        display:none !important;
+}
+
+label.questionlabel2
+{
+        display:block !important;
+}
+
+
+@media (max-width: 830px)
+{
+        #caspioform > table,
+        #progressbarcontainer
+        {
+                width:100%;
+        }
+
+        body
+        {
+                margin:8px !important;
+        }
+
+        label.questionlabel1
+        {
+                display:inline !important;
+        }
+
+        label.questionlabel2
+        {
+                display:none !important;
+        }
+}
+
+label[for*=Future_ApproveUse],
+label[for*=Future_OptIn]
+{
+        font-weight: normal;
+}
+
+td[data-cb-cell-name*=Future_ApproveUse],
+td[data-cb-cell-name*=Future_OptIn]
+{
+        font-size: 15px;
+        color: black;
+}
+
+td[class^=cbSubmitButtonContainer],
+input[type=submit][name=Submit]
+{
+        display:none;
+}
+
+table.subitem
+{
+        margin-left:50px;
+}
+
+table.mainitem .questionlabel1,
+table.mainitem .questionlabel2
+{
+        width:340px;
+}
+
+table.subitem .questionlabel1,
+table.subitem .questionlabel2
+{
+        width:287px;
+}

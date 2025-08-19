@@ -1,0 +1,10 @@
+.cbFormTextField, .cbFormSelect, .cbFormFile {
+  min-width:300px;
+  max-width:300px;
+}
+
+
+.cbFormRequiredMarker
+{
+  color:red !important;
+}

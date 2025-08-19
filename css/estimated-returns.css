@@ -1,0 +1,58 @@
+.headers
+{
+        background-color:black;
+        color:white;
+        font-weight:bold;
+        padding:10px;
+        text-align:center;
+}
+
+main[role="main"]
+{
+        width:80%;
+        margin:auto;
+}
+
+#investments-container tr[data-cb-name="data"] > td,
+.cb-old-eisa .cb-investments tr[data-cb-name="data"] > td,
+{
+        border:1px #dedede solid;
+}
+
+#investments-container .isright,
+.cb-old-eisa .cb-investments .isright
+{
+        text-align:right;
+}
+
+#investments-container .bgblack td,
+#investments-container .bgblack,
+.bgblack,
+.bgblack td
+{
+        background-color:black !important;
+        color:white  !important;
+}
+
+#investments-container,
+.cb-investments
+{
+        margin-bottom:20px;
+}
+
+#investments-container table[data-cb-name="cbTable"],
+.cb-old-eisa .cb-investments table[data-cb-name="cbTable"]
+{
+        width:initial;
+}
+
+.cb-returns
+{
+        margin-bottom:20px;
+        overflow:auto;
+}
+
+.cb-old-eisa tr[data-cb-name="header"] th
+{
+        background: #193d4a !important;
+}

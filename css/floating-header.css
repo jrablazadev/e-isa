@@ -1,0 +1,15 @@
+.fixed {
+    position: fixed;
+    border-spacing: 0px;
+    display: table;
+    max-width: initial;
+    min-width: initial;
+    background-color: white;
+    box-shadow: none;
+    table-layout: fixed;
+    z-index: 1101;
+    margin: 0px;
+    border: 0px none rgb(128, 128, 128);
+    border-collapse: collapse;
+    top: 0;
+}

@@ -1,0 +1,157 @@
+body {
+  background-image: url("../img/docusign.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-div {
+  height: 80%;
+}
+
+.bg-div {
+  margin-top: 30vh;
+}
+
+main {
+  margin-top: 0;
+}
+
+form[action*="66bd2be3018a49e495f5"], /*isa id and name */
+form[action*="a6dd8b3a65d24e519480"], /*buttons */
+form[action*="66bd2be3018a49e495f5"] > div[style="display: table;"],
+form[action*="a6dd8b3a65d24e519480"] > div[style="display: table;"], /*buttons */
+form[action*="66bd2be3018a49e495f5"] section,
+form[action*="a6dd8b3a65d24e519480"] section {
+  /*buttons */
+  background-color: transparent !important;
+  border-color: transparent;
+}
+
+form[action*="66bd2be3018a49e495f5"] .cbFormLabelCell.cbFormLabel,
+form[action*="66bd2be3018a49e495f5"] span.cbFormData {
+  /* font-size: x-large !important; */
+  font-size: large !important;
+  color: white;
+}
+
+form[action*="66bd2be3018a49e495f5"] span.cbFormData {
+  background: white;
+  color: black !important;
+  padding: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+}
+
+form[action*="66bd2be3018a49e495f5"] .cbFormLabelCell.cbFormLabel {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+form[action*="a6dd8b3a65d24e519480"] .cbHTMLBlockContainer.cbFormData {
+  padding: 0;
+}
+
+.buttons-dp {
+  padding-left: 0;
+}
+
+a.dh-btns {
+  background: transparent;
+}
+
+img.dh-btn {
+  /* width: 15rem; */
+  width: 12rem;
+  cursor: pointer;
+}
+
+.att-val-info {
+  display: none;
+}
+
+.attachments-dp header .row {
+  display: none;
+}
+
+h2 {
+  color: white !important;
+}
+
+form[action*="66bd2be3018a49e495f5"] .cbFormData {
+  width: 100%;
+  display: block;
+  padding: 5px;
+}
+
+.no-records-container {
+  background: white;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+form[action*="58a918dfc8734e3cb3b3"] > div,
+form[action*="ea73f40277cb41289096"] > div {
+  margin: auto !important;
+}
+
+form[action*="58a918dfc8734e3cb3b3"] select,
+form[action*="58a918dfc8734e3cb3b3"] input[type="file"],
+form[action*="58a918dfc8734e3cb3b3"] input[type="text"],
+form[action*="ea73f40277cb41289096"] select,
+form[action*="ea73f40277cb41289096"] input[type="file"],
+form[action*="ea73f40277cb41289096"] input[type="text"] {
+  width: 100% !important;
+}
+
+/* a.cbResultSetDownloadLink {
+    color: white !important;
+} */
+
+@media (max-width: 990px) {
+  body {
+    background-image: url("../img/docusign.png");
+    background-size: 200vw;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+
+  img.dh-btn {
+    width: 250px !important;
+  }
+
+  form[action*="66bd2be3018a49e495f5"] section[class^="cbFormSection"] {
+    width: 100% !important;
+    margin-left: 0px !important;
+    /* padding-left: 3rem; */
+  }
+
+  form[action*="66bd2be3018a49e495f5"] .cbFormLabelCell.cbFormLabel,
+  form[action*="66bd2be3018a49e495f5"] span.cbFormData {
+    font-size: revert !important;
+    /* line-height: 2.1; */
+  }
+
+  form[action*="66bd2be3018a49e495f5"] span.cbFormData {
+    line-height: 2.5;
+    background: revert;
+    border: revert;
+  }
+
+  .cbFormDataCell,
+  .cbFormDataCellNumberDate {
+    background-color: white;
+  }
+
+  .bg-div {
+    margin-top: 15vh;
+  }
+
+  .buttons-dp {
+    text-align: center;
+  }
+
+  .details-dp > article {
+    margin-right: 8vw;
+  }
+}

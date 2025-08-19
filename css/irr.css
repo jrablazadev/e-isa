@@ -1,0 +1,53 @@
+.cb-liquid-irr,
+.cb-liquid-irr *,
+.cb-font-sm,
+.cb-font-sm *
+{
+        font-size:12px;
+}
+
+.cb-big-buy .cb-col-inioutlay::after,
+.cb-sales-expenses .cb-col-inioutlay::after,
+.cb-delivery-cost .cb-col-inioutlay::after,
+.cb-bad-debt-burden .cb-col-inioutlay::after,
+.cb-income-tax .cb-col-inioutlay::after,
+.cb-wacc .cb-col-yr1::after,
+.cb-irr-amount .cb-col-yr1::after
+/* .cb-breakeven .cb-col-yr1::after,
+.cb-multiple-money .cb-col-yr1::after */
+{
+        content: " %";
+}
+
+.cb-isaId
+{
+        text-decoration:underline;
+}
+
+.cb-wacc .cb-col-description,
+.cb-present-value .cb-col-description,
+.cb-sum-present-value .cb-col-description,
+.cb-less-initial .cb-col-description,
+.cb-net-present-value .cb-col-description,
+.cb-irr-amount .cb-col-description,
+.cb-breakeven .cb-col-description,
+.cb-multiple-money .cb-col-description
+{
+        text-align:right;
+}
+
+.cb-col-inioutlay,
+.cb-col-yr1,
+.cb-col-yr2,
+.cb-col-yr3,
+.cb-col-yr4,
+.cb-col-yr5,
+.cb-col-yr6,
+.cb-col-yr7,
+.cb-col-yr8,
+.cb-col-yr9,
+.cb-col-yr10,
+.cb-col-total
+{
+        text-align:right;
+}

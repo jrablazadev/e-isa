@@ -1,0 +1,62 @@
+.table-header
+{
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	background: #027FAA;
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.cb-approval-timeline table[data-cb-name="cbTable"] td,
+.cb-approval-timeline table[data-cb-name="cbTable"] th,
+.cb-approval-timeline table[data-cb-name="cbTable"] a,
+.cb-approval-timeline .cbFormTextField
+{
+	font-size : 12px !important;
+}
+
+.cb-approval-timeline tr[data-cb-name="header"] th
+{
+	white-space: initial;
+}
+
+.cb-approval-timeline *[data-cb-name="data"] td:nth-child(9)
+{
+	text-align:center;
+}
+
+.cb-approval-timeline *:not(i),
+.cb-search input[type="text"],
+.cb-search input[type="button"],
+.cb-search input[type="submit"]
+{
+	font-size:12px !important;
+}
+
+.cb-approval-timeline table[data-cb-name="cbTable"] tr > *:last-child
+{
+	display:none;
+}
+
+.cb-search *[class^="cbSubmitButtonContainer"]
+{
+	display:none;
+}
+
+.cb-search #caspioform > div
+{
+	margin:auto;
+}
+
+.cb-search *[class^="cbHTMLBlockContainer"]
+{
+	text-align:center;
+}
+
+.dropdown-menu
+{
+	list-style-type: none !important;
+}

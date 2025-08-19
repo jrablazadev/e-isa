@@ -1,0 +1,66 @@
+
+.cb-table-header
+{
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        color: #000;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 12px;
+        background-color: #6d161f!important;
+        color:white;
+}
+
+table[data-cb-name="cbTable"] td,
+table[data-cb-name="cbTable"] th,
+table[data-cb-name="cbTable"] a,
+.cbFormTextField
+{
+        font-size:12px !important;
+}
+
+.cb-report table[data-cb-name="cbTable"] tr[data-cb-name="header"] th
+{
+        /* background-color:#28a745!important; */
+        /* background-color:#35904a!important; */
+        background-color:#dc3545!important;
+}
+
+input.btn-danger,
+button.btn-danger
+{
+        background-color:#e0616b;
+        border-color:#e0616b;
+}
+
+input.btn-primary,
+button.btn-primary
+{
+        background-color:#2c6ab1;
+        border-color:#2c6ab1;
+}
+
+tr[data-cb-name="data"] a.dropdown-toggle,
+tr[data-cb-name="data"] a
+{
+        color:#6d161f!important;
+}
+
+.cb-report td[data-cb-name="groupLabelCell1"],
+.cb-report td[data-cb-name="groupLabelCell2"],
+.cb-report td[data-cb-name="groupLabelCell3"],
+.cb-report td[data-cb-name="groupLabelCell4"]
+{
+        background-color:#f7cbcf!important
+}
+
+.cb-report input[type="text"]
+{
+        padding:3px;
+}
+
+.cb-report #caspioform > div
+{
+        margin:auto;
+}
