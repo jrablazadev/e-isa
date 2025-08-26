@@ -21,8 +21,8 @@
 	</div>
 
 	<script>
-		deployDP('cb-finance-exec', 'https://caspio.thenetwork-crm.com/dp/25d550003d55741dfcb44c6aa8f1/emb');
-		deployDP('cb-finance-breach', 'https://caspio.thenetwork-crm.com/dp/25d550007446581508a7475095a0/emb');
+		deployDP('cb-finance-exec', `${globalDataPagePrefix}3d55741dfcb44c6aa8f1/emb`);
+		deployDP('cb-finance-breach', `${globalDataPagePrefix}7446581508a7475095a0/emb`);
 	</script>
 
 	<script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>

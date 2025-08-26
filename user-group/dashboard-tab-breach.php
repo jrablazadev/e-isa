@@ -7,7 +7,7 @@
                 <div class="cb-report" id="cb-bwq-container"></div>
         </div>
         <script>
-                deployDP('cb-bwq-container', 'https://caspio.thenetwork-crm.com/dp/25d550003eb46814cace4cfd9c7a/emb');
+                deployDP('cb-bwq-container', `${globalDataPagePrefix}3eb46814cace4cfd9c7a/emb`);
         </script>
         <script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>
 </body>

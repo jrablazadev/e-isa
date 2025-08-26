@@ -16,8 +16,8 @@
         </div>
 
         <script>
-                deployDP('cb-pricing-exec-work-queue', 'https://caspio.thenetwork-crm.com/dp/25d55000ef76b73d6082474aadbe/emb');
-                deployDP('cb-pricing-breach', 'https://caspio.thenetwork-crm.com/dp/25d55000d8053e16d8d14ecf8c21/emb');
+                deployDP('cb-pricing-exec-work-queue', `${globalDataPagePrefix}ef76b73d6082474aadbe/emb`);
+                deployDP('cb-pricing-breach', `${globalDataPagePrefix}d8053e16d8d14ecf8c21/emb`);
         </script>
 
         <script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>

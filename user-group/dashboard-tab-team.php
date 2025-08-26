@@ -68,15 +68,15 @@
 	</div>
 
 	<script>
-		deployDP('cb-team-scratchpad', 'https://caspio.thenetwork-crm.com/dp/25d55000ef846788b6084c409415/emb');
-		deployDP('cb-team-myapproval', 'https://caspio.thenetwork-crm.com/dp/25d55000a99169350b1b4db3a9ba/emb');
-		deployDP('cb-team-upcoming', 'https://caspio.thenetwork-crm.com/dp/25d55000df39ad1f875242d2a00e/emb');
-		deployDP('cb-team-approved', 'https://caspio.thenetwork-crm.com/dp/25d55000a09712dd599e4a3c8c6d/emb');
-		deployDP('cb-team-dealsheet', 'https://caspio.thenetwork-crm.com/dp/25d550000819d4e46cda412c91cd/emb');
-		deployDP('cb-team-contratphase', 'https://caspio.thenetwork-crm.com/dp/25d55000fdddd86086af4c4bad51/emb');
-		deployDP('cb-team-exec', 'https://caspio.thenetwork-crm.com/dp/25d550002374e8f1c2ba439fa800/emb');
-		deployDP('cb-team-myapproval-dt', 'https://caspio.thenetwork-crm.com/dp/25d55000f21b4c25029f4d0b8119/emb');
-		deployDP('cb-team-breach', 'https://caspio.thenetwork-crm.com/dp/25d550004715d70e3b0049f9977e/emb');
+		deployDP('cb-team-scratchpad', `${globalDataPagePrefix}ef846788b6084c409415/emb`);
+		deployDP('cb-team-myapproval', `${globalDataPagePrefix}a99169350b1b4db3a9ba/emb`);
+		deployDP('cb-team-upcoming', `${globalDataPagePrefix}df39ad1f875242d2a00e/emb`);
+		deployDP('cb-team-approved', `${globalDataPagePrefix}a09712dd599e4a3c8c6d/emb`);
+		deployDP('cb-team-dealsheet', `${globalDataPagePrefix}0819d4e46cda412c91cd/emb`);
+		deployDP('cb-team-contratphase', `${globalDataPagePrefix}fdddd86086af4c4bad51/emb`);
+		deployDP('cb-team-exec', `${globalDataPagePrefix}2374e8f1c2ba439fa800/emb`);
+		deployDP('cb-team-myapproval-dt', `${globalDataPagePrefix}f21b4c25029f4d0b8119/emb`);
+		deployDP('cb-team-breach', `${globalDataPagePrefix}4715d70e3b0049f9977e/emb`);
 
 	</script>
 
