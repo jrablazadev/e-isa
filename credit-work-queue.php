@@ -20,7 +20,7 @@
 		<main role="main" class="container mb-5 cb-container">
 			<div class="mt-3">
 				<div class="bg-dark cb-header text-white mb-2">Suggested Credit Work Queue</div>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000b9bf8905bd8448d8aab6/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000b9bf8905bd8448d8aab6/emb"></script>
 			</div>
 		</main>
 

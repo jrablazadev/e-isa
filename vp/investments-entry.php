@@ -62,30 +62,30 @@
 
 			<div class="ishidden">
 				<!-- navigation bar container -->
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000288517adb7084773b2e2/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000288517adb7084773b2e2/emb"></script>
 			</div>
 			
 			<div style="display:none;">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000b8fc270763644165bbcd/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000b8fc270763644165bbcd/emb"></script>
 			</div>
 
 			<?php include_once "../partials/progressbar.php"; ?>
 
             <div class="marginbot20px" id="float">
-                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500051ba494d753f49b0a82e/emb"></script>
+                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500051ba494d753f49b0a82e/emb"></script>
             </div>
 
             <div id="entryraw-container">
-                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000d45ec1ea789448e29b84/emb"></script>
+                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000d45ec1ea789448e29b84/emb"></script>
             </div>
 
             <div class="marginbot20px calc-summary-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6fa8ea67191406f98e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6fa8ea67191406f98e4/emb"></script>
 			</div>
 
 			<div class="marginbot20px">
 				<!-- COMMENTS SECTION -->
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000f80be512f9f14c39ba69/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000f80be512f9f14c39ba69/emb"></script>
 			</div>
 
         </main>

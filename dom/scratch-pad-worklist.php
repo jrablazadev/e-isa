@@ -127,7 +127,7 @@
         }
 
         document.addEventListener('DataPageReady', function(event) {
-            if (event.detail.appKey == '25D5500044579d67bb704b1eadb6') {
+            if (event.detail.appKey == '25d5500044579d67bb704b1eadb6') {
                 highlight_doc_exeption_report();
             }
         });

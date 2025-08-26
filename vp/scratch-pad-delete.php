@@ -9,7 +9,7 @@
 <body class="hide">
     <?php include_once "../partials/navbar-vp.php"; ?>
     <main role="main" class="container" style="margin-top:50px;">
-        <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000c34600efaff2419dacfe/emb"></script>
+        <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000c34600efaff2419dacfe/emb"></script>
     </main>
 
 </body>

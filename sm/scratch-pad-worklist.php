@@ -50,13 +50,13 @@
     <script>
         // Dashboard metrics
         var bucketApp_Keys = [
-            "25D5500039a001159a514e4abfd7",
-            "25D5500006ce8ef9da074107ae34",
-            "25D550009daef365cb2348b3b65a",
-            "25D55000570e6ee879aa4ccca281",
-            "25D550003324267a4fcb4139a921",
-            "25D550009f8b1b08830d48139803",
-            "25D55000618c4b059e5940538a50",
+            "25d5500039a001159a514e4abfd7",
+            "25d5500006ce8ef9da074107ae34",
+            "25d550009daef365cb2348b3b65a",
+            "25d55000570e6ee879aa4ccca281",
+            "25d550003324267a4fcb4139a921",
+            "25d550009f8b1b08830d48139803",
+            "25d55000618c4b059e5940538a50",
         ]
 
         var bucketLabels = [

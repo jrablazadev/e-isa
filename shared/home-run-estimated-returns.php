@@ -6,7 +6,7 @@
 		<script src="../js/common.js"></script>
 	</head>
 	<body class="hide">
-		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000a5af212a78d5407c8cc2/emb"></script>
+		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000a5af212a78d5407c8cc2/emb"></script>
 
 		<script>
 			var urlVars = getUrlVars();

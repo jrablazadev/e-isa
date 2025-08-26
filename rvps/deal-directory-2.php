@@ -11,7 +11,7 @@
 			<div class="table-header mb-2 font-weight-bold bg-dark text-white">My Deal Directory</div>
 
 			<!-- <div class="cb-search">
-				<script type="text/javascript" src="https://c0dcy561.caspio.com/dp/f4048000a61c415ef11d4f71b5f0/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000a61c415ef11d4f71b5f0/emb"></script>
 			</div> -->
 
 			<div class="cb-report mb-3" id="cb-deal-directory">
@@ -20,7 +20,7 @@
 					<div class="spinner-border text-primary" role="status"></div>
 				</div>
 
-				<!-- <script type="text/javascript" src="https://c0dcy561.caspio.com/dp/f4048000cc670d6248c74a58b3f7/emb"></script> -->
+				<!-- <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000cc670d6248c74a58b3f7/emb"></script> -->
 				<script type="text/javascript" src="<?= $cb_datapage_prefix ?>99ba6cb5d82245a5b628/emb"></script>
 			</div>
 		</main>

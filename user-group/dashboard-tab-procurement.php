@@ -16,8 +16,8 @@
         </div>
 
         <script>
-                deployDP('cb-procurement-exec-work-queue', 'https://c0dcy561.caspio.com/dp/f4048000f7400819e1704df39330/emb');
-                // deployDP('cb-procurement-breach', 'https://c0dcy561.caspio.com/dp/f4048000a850778d63474cd98958/emb');
+                deployDP('cb-procurement-exec-work-queue', 'https://caspio.thenetwork-crm.com/dp/25d55000f7400819e1704df39330/emb');
+                // deployDP('cb-procurement-breach', 'https://caspio.thenetwork-crm.com/dp/25d55000a850778d63474cd98958/emb');
 
         </script>
 

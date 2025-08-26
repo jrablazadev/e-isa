@@ -2,11 +2,11 @@
 	<div class="table-header mb-2 font-weight-bold bg-dark text-white">Approval Timeline - People</div>
 
 	<div class="cb-search overflow-auto">
-		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500092eadb51b25a4ad29f24/emb"></script>
+		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500092eadb51b25a4ad29f24/emb"></script>
 	</div>
 
 	<div class="cb-report mb-3 cb-approval-timeline">
-		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550009a6a5a76c2ed40d684fe/emb"></script>
+		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550009a6a5a76c2ed40d684fe/emb"></script>
 	</div>
 </main>
 

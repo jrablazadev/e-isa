@@ -10,28 +10,28 @@
 			<h1>E-ISA ID: <?php echo isset($_GET['ISA_ID']) ? $_GET['ISA_ID'] : null; ?></h1>
 
 			<div id="investments-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000d413cf8b55054b9bbe8b/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000d413cf8b55054b9bbe8b/emb"></script>
 			</div>
 			<div id="investments-comm-rate" style="display:none">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550007258e1a7deba4825826e/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550007258e1a7deba4825826e/emb"></script>
 			</div>
 
             <!-- Section 9 : ISA Estimated Returns -->
             <div class="headers">Liquid Returns</div>
             <div style="overflow:auto;">
-                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000f43b3dd0f0f442c2b773/emb"></script>
+                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000f43b3dd0f0f442c2b773/emb"></script>
             </div>
             <br />  
 
             <div class="headers">Allied Returns</div>
             <div style="overflow:auto;">
-                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550007a4d334519624864a68d/emb"></script>
+                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550007a4d334519624864a68d/emb"></script>
             </div>
             <br />  
 
             <div class="headers">Total Returns</div>
             <div style="marginbot20px overflow:auto;">
-                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500090be70f80c6246c499b6/emb"></script>
+                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500090be70f80c6246c499b6/emb"></script>
             </div>
 		</main>
 

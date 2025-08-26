@@ -7,7 +7,7 @@
 	<body class="hide">
 		<label class="SelectAllTxt"><input type="checkbox" class="SelectAllCB"> Select All</label>
 	
-		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000df97571f43354dad8ec4/emb"></script>
+		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000df97571f43354dad8ec4/emb"></script>
 		
 		<style>
 			.SelectAllTxt

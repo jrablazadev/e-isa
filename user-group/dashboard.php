@@ -17,7 +17,6 @@
     </div>
     <!--./displays tab-->
 
-
     <main role="main" class="container">
         <ul class="nav nav-tabs" id="cb-tab" role="tablist"></ul>
         <div class="tab-content" id="cb-tab-content"></div>
@@ -25,7 +24,6 @@
 
     <script src="../js/dashboard-metrics.js?v=<?php echo date('YmdHis'); ?>"></script>
     <link rel="stylesheet" href="../css/dashboard-metrics.css">
-
 
     <!--deploy DPs for each tab-->
     <script src="../js/users-group-dashboard-tabs.js"></script>

@@ -12,7 +12,7 @@
 
 		<div class="headers bg-dark text-uppercase">STEP 1 WORK LIST (Scratch Pad, Calculator)</div>
 		<div id="scratch-pad-container" class="cb-report mb-3">
-			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550008ee50769a0604cedb505/emb"></script>
+			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550008ee50769a0604cedb505/emb"></script>
 		</div>
 
 		<div class="headers bg-dark mb-2">STEP 2 APPROVALS</div>
@@ -20,24 +20,24 @@
 
 			<div class="table-header mb-2"><strong>Approved ISAs List</strong></div>
 			<div class="overflow-auto cb-report mb-3 cb-approved">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550001185f2ac033f4e328f6d/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550001185f2ac033f4e328f6d/emb"></script>
 			</div>
 
 			<div class="table-header mb-2"><strong>ISAs in Deal Sheet Phase</strong></div>
 			<div class="overflow-auto cb-report mb-3">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550009a536459cb524a21a164/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550009a536459cb524a21a164/emb"></script>
 			</div>
 
 			<!-- Step 3 -->
 			<div class="table-header mb-2"><strong>ISAs in Contract Phase</strong></div>
 			<div class="overflow-auto cb-report mb-3">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550000a2f719017544bc4b36c/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550000a2f719017544bc4b36c/emb"></script>
 			</div>
 
 			<!-- Step 4 -->
 			<div class="table-header mb-2"><strong>Execution Work Queue</strong></div>
 			<div class="overflow-auto cb-report mb-3 cb-execution-work">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550002223af6dd1c9488e8f06/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550002223af6dd1c9488e8f06/emb"></script>
 			</div>
 
 			<div class="cb-report mb-3">
@@ -49,7 +49,7 @@
 	</main>
 
 	<script>
-		deployDP('cb-team-breach', 'https://caspio.thenetwork-crm.com/dp/25D55000ef0488b6fd5a42668381/emb');
+		deployDP('cb-team-breach', 'https://caspio.thenetwork-crm.com/dp/25d55000ef0488b6fd5a42668381/emb');
 	</script>
 	<script src="../js/dashboard-relate-accounts.js?v=<?php echo date('YmdHis'); ?>"></script>
 

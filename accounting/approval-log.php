@@ -11,7 +11,7 @@
 
 		<div class="table-header mb-2"><strong>Approval Log</strong></div>
 		<div class="overflow-auto cb-report mb-3 cb-approval-log">y
-		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550007327d79b5125436b83f0/emb"></script>
+		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550007327d79b5125436b83f0/emb"></script>
 		</div>
 			
 	</main>

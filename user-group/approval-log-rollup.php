@@ -45,7 +45,7 @@
 	<?php include_once "../partials/navbar-user-group.php"; ?>
 	<main role="main" class="container">
 		<div class="overflow-auto mb-3 cb-approval-log-rollup">
-			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000200868b491d94023bf50/emb"></script>
+			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000200868b491d94023bf50/emb"></script>
 		</div>
 
 	</main>

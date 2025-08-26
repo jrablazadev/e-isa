@@ -11,7 +11,7 @@
                         <div class="cb-table-header font-weight-bold bg-dark text-white">APPROVE DEAL TERMINATION</div>
 
                         <div class="mt-4">
-                                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000c743e3997aaf4a05b700/emb"></script>
+                                <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000c743e3997aaf4a05b700/emb"></script>
                         </div>
                 </main>
 

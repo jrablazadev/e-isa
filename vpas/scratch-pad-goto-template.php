@@ -11,7 +11,7 @@
     <main role="main" class="container" style="margin-top:50px;">
         <?php $isa_id = isset($_GET['Clone_From_ISA_ID']) ? $_GET['Clone_From_ISA_ID'] : null; ?>
         <?php $isa_rnd = isset($_GET['Clone_Random']) ? $_GET['Clone_Random'] : null; ?>
-        <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550005763c7e4dbc74e129782/emb?Clone_From_ISA_ID=<?php echo $isa_id; ?>&Clone_Random=<?php echo $isa_rnd; ?>"></script>
+        <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550005763c7e4dbc74e129782/emb?Clone_From_ISA_ID=<?php echo $isa_id; ?>&Clone_Random=<?php echo $isa_rnd; ?>"></script>
     </main>
 </body>
 </html>

@@ -10,6 +10,11 @@ $isaId = !empty($_GET['ISA_ID']) ? $_GET['ISA_ID'] : 0;
 
 <body class="hide">
     <main role="main" class="container">
+        <h5>Breach Comments</h5>
+        <div class="cb-comment-log" id="cb-breach-comment-section"></div>
+
+        <hr>
+
         <h5>Execution Group Comments</h5>
         <div class="cb-comment-log" id="cb-comment-section"></div>
 
@@ -28,6 +33,7 @@ $isaId = !empty($_GET['ISA_ID']) ? $_GET['ISA_ID'] : 0;
     deployDP('cb-comment-section', `${globalDataPagePrefix}6c13883bf1f04d14800d/emb?ISA_ID=<?php echo $isaId; ?>`);
     deployDP('cb-comment-page', `${globalDataPagePrefix}53ddbe502d4a477b8cdc/emb?ISA_ID=<?php echo $isaId; ?>`);
     deployDP('cb-comment-resubmitted-exec', `${globalDataPagePrefix}33070c5164a643efaa9f/emb?ISA_ID=<?php echo $isaId; ?>`);
+    deployDP('cb-breach-comment-section', `${globalDataPagePrefix}9c6611c850d941cd9c53/emb?ISA_ID=<?php echo $isaId; ?>`);
 </script>
 <style>
     .cb-comment-log .cb-report tr[data-cb-name="data"] td,

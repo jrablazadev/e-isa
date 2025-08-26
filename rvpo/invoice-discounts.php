@@ -24,27 +24,27 @@
 			
 			<div class="ishidden">
 				<!-- navigation bar parameters container -->
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000288517adb7084773b2e2/emb?Section_ID=4"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000288517adb7084773b2e2/emb?Section_ID=4"></script>
 			</div>
 		
             <?php include_once "../partials/progressbar.php"; ?>
 			
 			<div class="marginbot20px pnt-mfc-con">
 				<!-- Manufacturer -->
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500033c47c0e5ae64cc79462/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500033c47c0e5ae64cc79462/emb"></script>
 			</div>
 
 			<div class="marginbot20px section-container container1 grid-edit cb-invoice-discounts">
 				<!-- Section 4 : ISA Invoice Discounts -->
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000d3e8f98b087d439a918e/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000d3e8f98b087d439a918e/emb"></script>
 			</div>
 			
 			<div class="marginbot20px calc-summary-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6fa8ea67191406f98e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6fa8ea67191406f98e4/emb"></script>
 			</div>
 
 			<div class="marginbot20px">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000f80be512f9f14c39ba69/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000f80be512f9f14c39ba69/emb"></script>
 			</div>
 		</main>
 

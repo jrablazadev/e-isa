@@ -28,7 +28,7 @@
     </main>
 
     <script>
-        deployDP('cb-finance-duplicate-records', 'https://caspio.thenetwork-crm.com/dp/25D550000d4225fbcf084821ab11/emb');
+        deployDP('cb-finance-duplicate-records', 'https://caspio.thenetwork-crm.com/dp/25d550000d4225fbcf084821ab11/emb');
     </script>
 
     <script>
@@ -45,7 +45,7 @@
 
                         var rebate_date = isa_id_container.querySelector("td span[id=isa-id]").getAttribute("cb-data-rdate")
                         var termination_date = isa_id_container.querySelector("td span[id=isa-id]").getAttribute("cb-data-tdate")
-                        var vendor_key = "https://caspio.thenetwork-crm.com/dp/25D550009945a62684eb486a86c6/?ISA_ID=" + isa_id + "&RDATE=" + rebate_date + "&TDATE=" + termination_date + "&FX=" + fx
+                        var vendor_key = "https://caspio.thenetwork-crm.com/dp/25d550009945a62684eb486a86c6/?ISA_ID=" + isa_id + "&RDATE=" + rebate_date + "&TDATE=" + termination_date + "&FX=" + fx
 
                         document.querySelector("#cb-finance-duplicate-records input[name=Mod0InlineEdit]").addEventListener("click", function() {
                             document.querySelector('#cb-finance-duplicate-records-vendor iframe').setAttribute("src", "")
@@ -66,7 +66,7 @@
                             var rnd = this.getAttribute("cb-data-rnd")
                             var companyname = this.getAttribute("cb-data-companyname")
 
-                            var vendor_key = "https://caspio.thenetwork-crm.com/dp/25D550009945a62684eb486a86c6/emb?ISA_ID=" + isa_id + "&FX=" + fx + "&PAINT=" + paint + "&RND=" + rnd
+                            var vendor_key = "https://caspio.thenetwork-crm.com/dp/25d550009945a62684eb486a86c6/emb?ISA_ID=" + isa_id + "&FX=" + fx + "&PAINT=" + paint + "&RND=" + rnd
                             var modal_title = 'ISA ' + isa_id + ' - Paint Manufacturer ' + paint + ' - Company Name ' + companyname
 
                             openModal_v2(modal_title, vendor_key, '45%', 'Y');
@@ -91,7 +91,7 @@
 
         function refreshDuplicateRecordsList() {
         //     const cb_account_id = 'caspio.thenetwork-crm.com';
-            const cb_dpAppKeyPrefix = '25D55000';
+            const cb_dpAppKeyPrefix = '25d55000';
 
             function refreshDP(appKey) {
                 for (var key in window.dataPageManagerObj.dataPages) {

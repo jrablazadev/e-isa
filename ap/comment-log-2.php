@@ -26,10 +26,10 @@
 		</main>
 	</body>
 	<script>
-		deployDP('cb-comment-denial', 'https://caspio.thenetwork-crm.com/dp/25D55000d02c609815b3474d8ff2/emb?ISA_ID=<?php echo $isaId; ?>');
-		deployDP('cb-comment-section', 'https://caspio.thenetwork-crm.com/dp/25D55000207f21a72fc347f6b1a4/emb?ISA_ID=<?php echo $isaId; ?>');
-		deployDP('cb-comment-page', 'https://caspio.thenetwork-crm.com/dp/25D55000bddd5b32884a4be4884f/emb?ISA_ID=<?php echo $isaId; ?>');
-		deployDP('cb-comment-resubmitted-exec', 'https://caspio.thenetwork-crm.com/dp/25D5500033070c5164a643efaa9f/emb?ISA_ID=<?php echo $isaId; ?>');
+		deployDP('cb-comment-denial', 'https://caspio.thenetwork-crm.com/dp/25d55000d02c609815b3474d8ff2/emb?ISA_ID=<?php echo $isaId; ?>');
+		deployDP('cb-comment-section', 'https://caspio.thenetwork-crm.com/dp/25d55000207f21a72fc347f6b1a4/emb?ISA_ID=<?php echo $isaId; ?>');
+		deployDP('cb-comment-page', 'https://caspio.thenetwork-crm.com/dp/25d55000bddd5b32884a4be4884f/emb?ISA_ID=<?php echo $isaId; ?>');
+		deployDP('cb-comment-resubmitted-exec', 'https://caspio.thenetwork-crm.com/dp/25d5500033070c5164a643efaa9f/emb?ISA_ID=<?php echo $isaId; ?>');
 
 		function comments_popup(id, title)
 		{

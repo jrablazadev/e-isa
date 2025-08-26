@@ -7,7 +7,7 @@
 	</head>
 	<body class="hide">
 		<div class="cb-container">
-			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000363cba467e8f42f98a58/emb"></script>
+			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000363cba467e8f42f98a58/emb"></script>
 		</div>
 
 		<script>
@@ -62,7 +62,7 @@
 				}
 			});
 
-			// 25D55000363cba467e8f42f98a58
+			// 25d55000363cba467e8f42f98a58
 
 			// $('')
 		</script>

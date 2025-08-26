@@ -14,16 +14,16 @@
 
 			<!-- Section 6 : ISA EQ Rebates -->
 			<div class="marginbot20px section-container container1 grid-edit cb-eq-rebate">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000c1f9eeccc6c548a2b303/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000c1f9eeccc6c548a2b303/emb"></script>
 			</div>
 
 			<div class="marginbot20px calc-summary-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6fa8ea67191406f98e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6fa8ea67191406f98e4/emb"></script>
 			</div>
 
 			<!-- COMMENTS SECTION -->
 			<div class="marginbot20px">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000f80be512f9f14c39ba69/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000f80be512f9f14c39ba69/emb"></script>
 			</div>
 		</main>
 		<script>

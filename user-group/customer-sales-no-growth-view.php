@@ -14,18 +14,18 @@
 			<?php include_once "../partials/progressbar-user-group-view.php"; ?>
 
 			<div class="marginbot20px">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550009b0053f4adbd4725abd3/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550009b0053f4adbd4725abd3/emb"></script>
 			</div>
 
 			<div class="marginbot20px calc-summary-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6fa8ea67191406f98e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6fa8ea67191406f98e4/emb"></script>
 			</div>
 		</main>
 		<script>
 			update_progressbar(2);
 
 			document.addEventListener('DataPageReady', function (event) {
-				if (event.detail.appKey == '25D550009b0053f4adbd4725abd3')
+				if (event.detail.appKey == '25d550009b0053f4adbd4725abd3')
 				{
 					$('*[name="EditRecordMonthly_Liquid"]').autoNumeric('init', {mDec : 10, vMin : 0, aSep : '', aPad : false}).prop('disabled', true);
 					$('*[name="EditRecordMonthly_Allied"]').autoNumeric('init', {mDec : 10, vMin : 0, aSep : '', aPad : false}).prop('disabled', true);

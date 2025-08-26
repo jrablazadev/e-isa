@@ -12,7 +12,7 @@
 			<div class="cb-table-header mb-2">HISTORICAL DEAL DIRECTORY</div>
 
 			<div class="cb-report mb-3">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000a8b40053c0884c1eb336/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000a8b40053c0884c1eb336/emb"></script>
 			</div>
 		</main>
 

@@ -33,7 +33,7 @@
 			<?php include_once "../partials/progressbar-user-group-view.php"; ?>
 
 			<div id="float">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500018feccb46df84e28a0e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500018feccb46df84e28a0e4/emb"></script>
 			</div>
 
 			<div class="cb-nav-btn text-center">
@@ -42,12 +42,12 @@
 			</div>
 
 			<div class="cb-cgr mb-3">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000cb0a25708d8f4efd9c6f/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000cb0a25708d8f4efd9c6f/emb"></script>
 			</div>
 
 
 			<div class="mb-3 calc-summary-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6fa8ea67191406f98e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6fa8ea67191406f98e4/emb"></script>
 			</div>
 
 

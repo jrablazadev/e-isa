@@ -93,16 +93,16 @@
 
             		<!-- SECTION 1 : ISA Template -->
 			<div class="part1">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000c664a42cebf343b29ee2/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000c664a42cebf343b29ee2/emb"></script>
 			</div>
 
 			<div class="part1 calc-summary-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6fa8ea67191406f98e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6fa8ea67191406f98e4/emb"></script>
 			</div>
 
 			<!-- COMMENTS SECTION -->
 			<div class="part1">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000f80be512f9f14c39ba69/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000f80be512f9f14c39ba69/emb"></script>
 			</div>
 
 			<script>
@@ -132,7 +132,7 @@
 					<div class="modal-body">
 						<div id="cb-modal-body">
 							<div id="network_customer_selection">
-								<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000edc4f77ac2ba4148bfa1/emb"></script>
+								<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000edc4f77ac2ba4148bfa1/emb"></script>
 							</div>
 						</div>
 						<div id="cb-modal-error" class="d-none alert alert-danger"></div>

@@ -12,27 +12,27 @@
 
 				<div class="table-header mb-2"><strong>My Approval Needed</strong></div>
 				<div style="overflow: auto" class="cb-report mb-3 cb-myapproval">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000641189ed0e1545799f36/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000641189ed0e1545799f36/emb"></script>
 				</div>
 
 				<div class="table-header mb-2"><strong>Upcoming Approvals</strong></div>
 				<div style="overflow: auto" class="cb-report mb-3 cb-upcoming">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000032447ecad1a4ae9b64a/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000032447ecad1a4ae9b64a/emb"></script>
 				</div>
 
 				<div class="table-header mb-2"><strong>Approved ISAs List</strong></div>
 				<div style="overflow: auto" class="cb-report mb-3 cb-approved">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000f76f02c40b6c4ba192e2/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000f76f02c40b6c4ba192e2/emb"></script>
 				</div>
 
 				<div class="table-header mb-2"><strong>ISAs in Deal Sheet Phase</strong></div>
 				<div style="overflow: auto" class="cb-report mb-3 cb-dealsheet">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500061dc141eaf044e038e3c/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500061dc141eaf044e038e3c/emb"></script>
 				</div>
 
 				<div class="table-header mb-2"><strong>ISAs in Contract Phase</strong></div>
 				<div style="overflow: auto" class="cb-report mb-3 cb-contractphase">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550004f8d4ccb944a4127bb91/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550004f8d4ccb944a4127bb91/emb"></script>
 				</div>
 				
 				<!-- Step 4 -->

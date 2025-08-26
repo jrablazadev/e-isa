@@ -2,11 +2,11 @@
 	<div class="table-header mb-2 font-weight-bold bg-dark text-white">Approval Timeline - Stages</div>
 
 	<div class="cb-search">
-		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000fd9032b3a72143448ea0/emb"></script>
+		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000fd9032b3a72143448ea0/emb"></script>
 	</div>
 
 	<div class="cb-report mb-3 cb-approval-timeline">
-		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000c64dc13d54694955b412/emb"></script>
+		<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000c64dc13d54694955b412/emb"></script>
 	</div>
 </main>
 

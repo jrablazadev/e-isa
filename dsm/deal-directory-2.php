@@ -13,11 +13,11 @@
         <div class="table-header mb-2 font-weight-bold bg-dark text-white">My Deal Directory</div>
 
         <!-- <div class="cb-search"> -->
-        <!-- <script type="text/javascript" src="https://c0dcy561.caspio.com/dp/f4048000b642df38aaec431392bb/emb"></script> -->
+        <!-- <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000b642df38aaec431392bb/emb"></script> -->
         <!-- </div> -->
 
         <div class=" mb-3" id="cb-deal-directory">
-            <!-- <script type="text/javascript" src="https://c0dcy561.caspio.com/dp/f40480001fcfbe0ec9a442fda5e7/emb"></script> -->
+            <!-- <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550001fcfbe0ec9a442fda5e7/emb"></script> -->
 
             <!-- DSM - Deal Directory v2 -->
             <script type="text/javascript" src="<?= $cb_datapage_prefix ?>99ba6cb5d82245a5b628/emb"></script>

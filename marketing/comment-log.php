@@ -10,28 +10,28 @@
         
 			<h5>Denial Comments</h5>
 			<div class="cb-report comment-log" id="comment-denial">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000d02c609815b3474d8ff2/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000d02c609815b3474d8ff2/emb"></script>
 			</div>
 
 			<hr>
 
 			<h5>Notes Entered on Page 7</h5>
 			<div class="cb-report comment-log" id="comment-section">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500079a7dbacd9d144f1859c/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500079a7dbacd9d144f1859c/emb"></script>
 			</div>
 
 			<hr>
 
 			<h5>Comments By Page</h5>
 			<div class="cb-report comment-log" id="comment-page">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000bddd5b32884a4be4884f/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000bddd5b32884a4be4884f/emb"></script>
 			</div>
 
 			<hr>
 
 			<h5>Resubmitted to Execution Work Queue Comments</h5>
 			<div class="cb-report">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500033070c5164a643efaa9f/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500033070c5164a643efaa9f/emb"></script>
 			</div>
 
 		</main>
@@ -92,7 +92,7 @@
 					if(closeIcon)
 					{
 						closeIcon.addEventListener("click", function () { 
-							refreshDP("25D5500079a7dbacd9d144f1859c")
+							refreshDP("25d5500079a7dbacd9d144f1859c")
 						})
 					}
 					clearInterval(a)

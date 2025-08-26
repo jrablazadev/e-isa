@@ -46,7 +46,7 @@
 
 	<div class="cb-report mb-3">
 		<div class="cb-step2-header mb-2">ISA Team Breach/Deal Termination Work Queue</div>
-		<div class="" id="cb-team-breach"></div>
+		<div id="cb-team-breach"></div>
 	</div>
 
 	<div id="cb-modal" class="modal" tabindex="-1" role="dialog">
@@ -82,6 +82,8 @@
 
 	<script src="../js/dashboard-metrics.js"></script>
 	<link rel="stylesheet" href="../css/dashboard-metrics.css">
+
+	<script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>
 
 	<script>
 		// Dashboard metrics

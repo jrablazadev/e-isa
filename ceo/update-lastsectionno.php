@@ -12,7 +12,7 @@
 			
 			<div style="margin:10px;font-family:arial;">Please wait.. </div>
 		
-			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550003023881e73ee452a8299/emb"></script>
+			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550003023881e73ee452a8299/emb"></script>
 		</div>
 		
 		<script>

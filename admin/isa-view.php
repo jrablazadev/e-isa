@@ -16,63 +16,63 @@
 
 			<div id="section1" class="mb-5">
 				<h3>E-ISA <span class="badge badge-success cb-isa-status"></span></h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550003ae7a542d40e4835b512/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550003ae7a542d40e4835b512/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section2" class="expandheader mb-5">
 				<h3>Customer sales with no growth</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550008d0d90ee058349809bfa/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550008d0d90ee058349809bfa/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section3" class="mb-5">
 				<h3>Customer sales with growth factored</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000719f12d4f8174bb59a33/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000719f12d4f8174bb59a33/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section4" class="expandheader mb-5">
 				<h3>Invoice Discounts</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500019f1d283550444cfa258/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500019f1d283550444cfa258/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section5" class=" expandheader mb-5">
 				<h3>Statement Rebates</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550008a8058ee0c2d4faea78a/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550008a8058ee0c2d4faea78a/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section6" class=" expandheader mb-5">
 				<h3>EQ Rebates</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000460bcd2542f24b36a7df/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000460bcd2542f24b36a7df/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section7" class=" expandheader mb-5">
 				<h3>Manufacture Rebates</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550006d954b91195043ef9432/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550006d954b91195043ef9432/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section8" class=" expandheader mb-5">
 				<h3>Investments</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000ae85b1fdf0c74195a13b/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000ae85b1fdf0c74195a13b/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section9" class=" expandheader mb-5">
 				<h3>Investments</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550000c8c08f5175f49038d52/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550000c8c08f5175f49038d52/emb"></script>
 			</div>
 
 			<hr>
@@ -81,11 +81,11 @@
 				<h3>Attachments</h3>
 
 				<div class="mb-3">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550005c34d9992fc840c6bf54/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550005c34d9992fc840c6bf54/emb"></script>
 				</div>
 
 				<div>
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550000a82daf550924c9d91b1/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550000a82daf550924c9d91b1/emb"></script>
 				</div>
 			</div>
 
@@ -93,28 +93,28 @@
 
 			<div id="section10-2" class="expandheader mb-5">
 				<h3>Account Related</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000f8e5f590901d4ff59ee6/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000f8e5f590901d4ff59ee6/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section11-1" class="expandheader mb-5">
 				<h3>Customer Price Profile Setup and Salesman Assignment</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500035e2817111fc4fb78693/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500035e2817111fc4fb78693/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section11-2" class="expandheader mb-5">
 				<h3>Allied Statement and Manufacturer Rebates</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000bf105c0f3cdc4d818771/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000bf105c0f3cdc4d818771/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section11-3" class="expandheader mb-5">
 				<h3>Invoice Discounts on Specific Manufacturers and Product Lines</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000ae37899cf8884a3bba99/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000ae37899cf8884a3bba99/emb"></script>
 			</div>
 
 			<hr>
@@ -122,7 +122,7 @@
 			<div id="section11-3" class="expandheader mb-3">
 				<h3>MPO Details</h3>
 				<div style="display: none">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500086d1ebc230c74a9182dc/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500086d1ebc230c74a9182dc/emb"></script>
 				</div>
 				<iframe src="" id="MPO_Details_Iframe2" frameborder="0"></iframe>
 			</div>
@@ -131,26 +131,26 @@
 
 			<div id="section12-1" class="expandheader mb-5">
 				<h3>Investments</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6efff9ecd03490fb785/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6efff9ecd03490fb785/emb"></script>
 			</div>
 
 			<hr>
 
 			<div id="section12-2" class="expandheader mb-5">
 				<h3>Estimated Returns - Liquid Returns</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000dc1ce826947248e6b3b6/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000dc1ce826947248e6b3b6/emb"></script>
 			</div>
 
 			<hr>
 			<div id="section12-3" class="expandheader mb-5">
 				<h3>Estimated Returns - Allied Returns</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000fb056accddd04efea002/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000fb056accddd04efea002/emb"></script>
 			</div>
 
 			<hr>
 			<div id="section12-4" class="expandheader mb-5">
 				<h3>Estimated Returns - Total Returns</h3>
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550008e45619067f447ca8c8b/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550008e45619067f447ca8c8b/emb"></script>
 			</div>
 
 			<script src="../lib/autonumeric/autoNumeric.js"></script>

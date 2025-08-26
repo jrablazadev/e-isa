@@ -9,7 +9,7 @@
 	<body class="hide">
 		<?php include_once "../partials/navbar-accounting.php"; ?>
 		<main role="main" class="container">
-            <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550000b55da8dc9ff4347a4e4/emb"></script>
+            <script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550000b55da8dc9ff4347a4e4/emb"></script>
 		</main>
 
 		<style>

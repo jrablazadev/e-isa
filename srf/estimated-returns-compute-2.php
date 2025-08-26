@@ -17,15 +17,15 @@
 			
 			<div style="display:none">
 				<div id="liquid-returns">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550006b003e3d5c994b5e9460/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550006b003e3d5c994b5e9460/emb"></script>
 				</div>
 				
 				<div id="total-returns">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500083ac66fd31384ac3b246/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500083ac66fd31384ac3b246/emb"></script>
 				</div>
 				
 				<div id="submission-form">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000b17fc78dd0a545e1aa35/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000b17fc78dd0a545e1aa35/emb"></script>
 				</div>
 			</div>
 			

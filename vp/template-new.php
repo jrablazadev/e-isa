@@ -54,7 +54,7 @@
 		<?php include_once "../partials/navbar-vp.php"; ?>
 		<main role="main" class="container">
 			<?php include_once "../partials/progressbar.php"; ?>
-			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550005a1f6380977a4144b939/emb"></script>
+			<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550005a1f6380977a4144b939/emb"></script>
 		</main>
 		
 		<div id="cb-modal" class="modal" tabindex="-1" role="dialog">
@@ -68,7 +68,7 @@
 					</div>
 					<div class="modal-body">
 						<div id="cb-modal-body">
-							<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550001efb2a47c1974536a144/emb"></script>
+							<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550001efb2a47c1974536a144/emb"></script>
 						</div>
 					</div>
 				</div>
@@ -164,7 +164,7 @@
 					<div class="modal-body">
 						<div id="cb-modal-body">
 							<div id="network_customer_selection">
-								<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000edc4f77ac2ba4148bfa1/emb"></script>
+								<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000edc4f77ac2ba4148bfa1/emb"></script>
 							</div>
 						</div>
 						<div id="cb-modal-error" class="d-none alert alert-danger"></div>

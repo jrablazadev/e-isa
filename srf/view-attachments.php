@@ -13,7 +13,7 @@
 			
 			<h5 class="cb-att-label">Attachments</h5>
 			<div class="cb-attachments">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500048e5b48d2c2b4a8a8c58/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500048e5b48d2c2b4a8a8c58/emb"></script>
 			</div>
 			
 			
@@ -102,7 +102,7 @@
 					</div>
 					<div class="modal-body">
 						<div id="cb-modal-body">
-							<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000d424fe7ab6ae4af9896a/emb"></script>
+							<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000d424fe7ab6ae4af9896a/emb"></script>
 						</div>
 						<div id="cb-modal-error" class="d-none alert alert-danger"></div>
 					</div>

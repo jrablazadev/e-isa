@@ -10,25 +10,25 @@
 		<main role="main">
 
 			<div id="investments-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000d413cf8b55054b9bbe8b/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000d413cf8b55054b9bbe8b/emb"></script>
 			</div>
 
 			<div class="headers">Liquid Returns</div>
 
 			<div class="cb-returns">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000f43b3dd0f0f442c2b773/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000f43b3dd0f0f442c2b773/emb"></script>
 			</div>
 
 			<div class="headers">Allied Returns</div>
 
 			<div class="cb-returns">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D550007a4d334519624864a68d/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d550007a4d334519624864a68d/emb"></script>
 			</div>
 
 			<div class="headers">Total Returns</div>
 
 			<div class="cb-returns">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500090be70f80c6246c499b6/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500090be70f80c6246c499b6/emb"></script>
 			</div>
 
 			<div class="cb-old-eisa">
@@ -37,32 +37,32 @@
 				<h1>Old E-ISA</h1>
 
 				<div class="cb-investments">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500084a9b761673a46f3ab9f/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500084a9b761673a46f3ab9f/emb"></script>
 				</div>
 
 				<div class="headers">Liquid Returns</div>
 
 				<div class="cb-returns">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000658c401db4e449d3a2f5/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000658c401db4e449d3a2f5/emb"></script>
 				</div>
 
 				<div class="headers">Allied Returns</div>
 
 				<div class="cb-returns">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000481b3077b380442c8ab8/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000481b3077b380442c8ab8/emb"></script>
 				</div>
 
 				<div class="headers">Total Returns</div>
 
 				<div class="cb-returns">
-					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000c2996f06e0744611bd71/emb"></script>
+					<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000c2996f06e0744611bd71/emb"></script>
 				</div>
 
 				<hr>
 			</div>
 
 			<div class="marginbot20px calc-summary-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6fa8ea67191406f98e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6fa8ea67191406f98e4/emb"></script>
 			</div>
 		</main>
 
@@ -119,7 +119,7 @@
 				window.open(PdfGen);
 
 				// create iframe in span. the iframe is a submission DP to create download logs
-				$('.cb-dl-returns-logs').html('<iframe src="https://caspio.thenetwork-crm.com/dp/25D550003d1abe12cba34be2835d?ISA_ID=' + ISAId + '"></iframe>');
+				$('.cb-dl-returns-logs').html('<iframe src="https://caspio.thenetwork-crm.com/dp/25d550003d1abe12cba34be2835d?ISA_ID=' + ISAId + '"></iframe>');
 				setTimeout(function(){
 					$('.cb-dl-returns-logs').empty();
 				}, 1000);

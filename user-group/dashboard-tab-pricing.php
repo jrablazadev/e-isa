@@ -20,6 +20,7 @@
                 deployDP('cb-pricing-breach', 'https://caspio.thenetwork-crm.com/dp/25d55000d8053e16d8d14ecf8c21/emb');
         </script>
 
+        <script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>
 </body>
 
 </html>

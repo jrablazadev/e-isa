@@ -99,25 +99,25 @@
 
 			<!-- Manufacture Rebates -->
 			<div class="cb-mfr-rebates section-container container1 grid-edit">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500042421c167a5944c7b0b2/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500042421c167a5944c7b0b2/emb"></script>
 			</div>
 
 			<hr>
 
 			<!-- Fixed Dollar Rebates -->
 			<div class="cb-fixed-dollar mb-5">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500062898b9681374c338c8b/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500062898b9681374c338c8b/emb"></script>
 			</div>
 
 			<hr>
 
 			<!-- Investments Entry -->
 			<div class="cb-investments-entry mb-3" id="float">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D5500051ba494d753f49b0a82e/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d5500051ba494d753f49b0a82e/emb"></script>
 			</div>
 
 			<div class="mb-3 calc-summary-container">
-				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25D55000e6fa8ea67191406f98e4/emb"></script>
+				<script type="text/javascript" src="https://caspio.thenetwork-crm.com/dp/25d55000e6fa8ea67191406f98e4/emb"></script>
 			</div>
 		</main>
 
@@ -143,7 +143,7 @@
 
 			document.addEventListener('DataPageReady', function (event) {
 
-				if (event.detail.appKey == '25D5500051ba494d753f49b0a82e')
+				if (event.detail.appKey == '25d5500051ba494d753f49b0a82e')
 				{
 					$('.cb-investments-entry').find('.qty, .participation, .mfr-participation, .customer-participation').prop('disabled', true);
 					// $('.nextbtn').closest('div').append('<a href="./investments.php?ISA_ID=<?php echo $_GET['ISA_ID']; ?>&Section_ID=8" class="cb-next-btn">Next</a>');
