@@ -114,7 +114,7 @@ document.addEventListener("DataPageReady", function (event) {
 	}
 
 	if (event.detail.appKey.includes("3eb46814cace4cfd9c7a")) {
-		console.log("bwq loaded");
+		// console.log("bwq loaded");
 		makeDashboardMetricForISATeamGroup(
 			".dashboard-metrics-breach",
 			["3eb46814cace4cfd9c7a"],
