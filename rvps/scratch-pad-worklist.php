@@ -52,31 +52,31 @@
 
             <div class="cb-report mb-3">
                 <div class="table-header mb-2"><strong>Breach/Deal Termination Work Queue</strong></div>
-                <div class="overflow-auto" id="cb-team-breach"></div>
+                <div class="overflow-auto" id="cb-team-breach">
+                    <script type="text/javascript" src="<?= $cb_datapage_prefix ?>3f9f6daf53f7485298ba/emb"></script>
+                </div>
             </div>
 
         </div>
     </main>
-
-    <script>
-        deployDP('cb-team-breach', '<?= $cb_datapage_prefix ?>3f9f6daf53f7485298ba/emb');
-    </script>
     <script src="../js/dashboard-relate-accounts.js?v=<?php echo date('YmdHis'); ?>"></script>
     <script src="../js/dashboard-metrics.js?v=<?php echo date('YmdHis'); ?>"></script>
     <script src="../js/scratchpad-filter.js?v=<?php echo date('YmdHis'); ?>"></script>
     <script src="../js/dashboard-deal-work-queue.js?v=<?php echo date('YmdHis'); ?>"></script>
+    <script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>
+
     <link rel="stylesheet" href="../css/dashboard-metrics.css">
 
     <script>
         // Dashboard metrics
         var bucketApp_Keys = [
-            "25d550006f42e1516e404872a6e0",
-            "25d55000d10e87ac23934e6ea6a7",
-            "25d55000fe86dc8d828d4789a6cf",
-            "25d55000d4a52e2b06b842b68621",
-            "25d550002cf1ddd43f0f481fb7ba",
-            "25d550009ffa2ad8958f48618244",
-            "25d550003f9f6daf53f7485298ba",
+            '6f42e1516e404872a6e0',
+            'd10e87ac23934e6ea6a7',
+            'fe86dc8d828d4789a6cf',
+            'd4a52e2b06b842b68621',
+            '2cf1ddd43f0f481fb7ba',
+            '9ffa2ad8958f48618244',
+            '3f9f6daf53f7485298ba',
         ]
 
         var bucketLabels = [

@@ -8,7 +8,8 @@
         </div>
         <script>
                 deployDP('cb-bwq-container', `${globalDataPagePrefix}3eb46814cace4cfd9c7a/emb`);
+
+                <?php echo file_get_contents('../js/breach-search.js'); ?>
         </script>
-        <script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>
 </body>
 </html>

@@ -2,8 +2,8 @@ const breach_dps_fields = {
 	"3eb46814cace4cfd9c7a": {
 		// breach team
 		// source field, virtual field
-		status: ["Value7_1", "cbParamVirtual1"],
-		termination_step: ["Value8_1", "cbParamVirtual2"],
+		status: ["Value6_1", "cbParamVirtual1"],
+		termination_step: ["Value7_1", "cbParamVirtual2"],
 	},
 	"6395b6c851194e1c9291": {
 		// isa credit
@@ -34,6 +34,18 @@ const breach_dps_fields = {
 		// source field, virtual field
 		status: ["Value6_1", "cbParamVirtual1"],
 		termination_step: ["Value7_1", "cbParamVirtual2"],
+	},
+	"7e78bfffce2140e897e4": {
+		// DSM
+		// source field, virtual field
+		status: ["Value4_1", "cbParamVirtual1"],
+		termination_step: ["Value5_1", "cbParamVirtual2"],
+	},
+	"3f9f6daf53f7485298ba": {
+		// RVPS
+		// source field, virtual field
+		status: ["Value5_1", "cbParamVirtual1"],
+		termination_step: ["Value6_1", "cbParamVirtual2"],
 	},
 };
 
