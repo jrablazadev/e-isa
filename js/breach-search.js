@@ -47,6 +47,12 @@ const breach_dps_fields = {
 		status: ["Value5_1", "cbParamVirtual1"],
 		termination_step: ["Value6_1", "cbParamVirtual2"],
 	},
+	ffc1c7c866bc4df4b5af: {
+		// Tom B.
+		// source field, virtual field
+		status: ["Value6_1", "cbParamVirtual1"],
+		termination_step: ["Value7_1", "cbParamVirtual2"],
+	},
 };
 
 let breach_dps_arr = [];

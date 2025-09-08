@@ -48,21 +48,21 @@
 
 				<div class="cb-report mb-3">
 					<div class="table-header mb-2"><strong>Breach/Deal Termination Work Queue</strong></div>
-					<div class="overflow-auto" id="cb-team-breach"></div>
+					<div class="overflow-auto" id="cb-team-breach">
+						<script type="text/javascript" src="<?= $cb_datapage_prefix ?>ffc1c7c866bc4df4b5af/emb"></script>
+					</div>
 				</div>
 
 			</div>
 		</main>
 
-		<script>
-			deployDP('cb-team-breach', '<?= $cb_datapage_prefix ?>ffc1c7c866bc4df4b5af/emb');
-		</script>
-
 		<script src="../js/dashboard-metrics.js?v=<?php echo date('YmdHis')?>"></script>
 		<script src="../js/scratchpad-filter.js?v=<?php echo date('YmdHis'); ?>"></script>
 		<script src="../js/dashboard-deal-work-queue.js?v=<?php echo date('YmdHis'); ?>"></script>
-		<link rel="stylesheet" href="../css/dashboard-metrics.css">
 		<script src="../js/dashboard-relate-accounts.js?v=<?php echo date('YmdHis'); ?>"></script>
+		<script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>
+
+		<link rel="stylesheet" href="../css/dashboard-metrics.css">
 
 		<script>
 			// Dashboard metrics
