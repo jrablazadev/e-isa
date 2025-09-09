@@ -1141,7 +1141,7 @@ var cogLinks = {
 		"Direction To Pay",
 	], //  Breach Work Queue
 	"4715d70e3b0049f9977e": [
-		"View Details",
+		"Edit Details",
 		"Comments",
 		"Attachments",
 		"E-ISA Logs",
@@ -1217,6 +1217,20 @@ var cogLinks = {
 		"Manufacturer Subscription Fee Summary",
 		"Log1c Subscription Fee Summary",
 	], // Related Accounts Tabular Modal
+
+	// ISA Breach
+	"3eb46814cace4cfd9c7a": [
+		"Edit Details",
+		"Comments",
+		"Attachments",
+		"E-ISA Logs",
+		"Related Accounts",
+		"Return to Deal Directory",
+		"Allocate Asset",
+		"ComCept AR",
+		"ComCept Pricing",
+		"Direction To Pay",
+	], //  Breach Work Queue
 
 	// KN
 	"0dabc5498b964a83a86c": [

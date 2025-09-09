@@ -11,5 +11,19 @@
 
                 <?php echo file_get_contents('../js/breach-search.js'); ?>
         </script>
+        <style>
+		form[action*="3eb46814cace4cfd9c7a"] .dropdown-menu .dropdown-item {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		form[action*="3eb46814cace4cfd9c7a"] .dropdown-menu {
+			width:500px;
+		}
+
+		form[action*="3eb46814cace4cfd9c7a"] > div > div > div[id^="GridCtnr"] {
+			overflow:initial !important;
+		}
+	</style>
 </body>
 </html>

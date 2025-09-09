@@ -83,6 +83,21 @@
 	<script src="../js/dashboard-metrics.js"></script>
 	<link rel="stylesheet" href="../css/dashboard-metrics.css">
 
+	<style>
+		form[action*="4715d70e3b0049f9977e"] .dropdown-menu .dropdown-item {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		form[action*="4715d70e3b0049f9977e"] .dropdown-menu {
+			width:500px;
+		}
+
+		form[action*="4715d70e3b0049f9977e"] > div > div > div[id^="GridCtnr"] {
+			overflow:initial !important;
+		}
+	</style>
+
 	<script>
 		// Dashboard metrics
 		var bucketApp_Keys = [

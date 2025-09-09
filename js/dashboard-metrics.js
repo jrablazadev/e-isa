@@ -143,14 +143,16 @@ function makeDashboardMetricForISATeamGroup(
 		table.setAttribute("border", "0");
 		table.setAttribute("id", "dashboard-metrics-" + tab);
 
-		document.querySelector(parentDiv).prepend(table);
+		if (document.querySelector(parentDiv)) {
+			document.querySelector(parentDiv).prepend(table);
+		}
 
 		var tr = document.createElement("tr");
 		tr.setAttribute("class", "text-center");
 
 		table.prepend(tr);
 
-		console.log({ bucketApp_Keys });
+		// console.log({ bucketApp_Keys });
 
 		for (let index = 0; index < bucketApp_Keys.length; index++) {
 			var td = document.createElement("td");
