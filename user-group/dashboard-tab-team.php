@@ -83,8 +83,6 @@
 	<script src="../js/dashboard-metrics.js"></script>
 	<link rel="stylesheet" href="../css/dashboard-metrics.css">
 
-	<script src="../js/breach-search.js?v=<?php echo date('YmdHis'); ?>"></script>
-
 	<script>
 		// Dashboard metrics
 		var bucketApp_Keys = [
@@ -110,7 +108,9 @@
 		document.addEventListener("DataPageReady", function () {
 			// Provide the parent Div
 			makeDashboardMetric("#team-tab-content", bucketLabels, "dashboard-metrics-content-md")
-		})
+		});
+
+		<?php echo file_get_contents('../js/breach-search.js'); ?>
 	</script>
 
 

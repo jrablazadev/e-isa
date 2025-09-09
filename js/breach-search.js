@@ -1,4 +1,4 @@
-const breach_dps_fields = {
+var breach_dps_fields = {
 	"3eb46814cace4cfd9c7a": {
 		// breach team
 		// source field, virtual field
@@ -55,7 +55,7 @@ const breach_dps_fields = {
 	},
 };
 
-let breach_dps_arr = [];
+var breach_dps_arr = [];
 
 for (const appkey in breach_dps_fields) {
 	breach_dps_arr.push(appkey);
