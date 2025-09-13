@@ -81,6 +81,8 @@
 	</script>
 
 	<script src="../js/dashboard-metrics.js"></script>
+	<script src="../js/breach-search-v2.js?v=<?php echo date('YmdHis'); ?>"></script>
+	
 	<link rel="stylesheet" href="../css/dashboard-metrics.css">
 
 	<style>
@@ -124,8 +126,6 @@
 			// Provide the parent Div
 			makeDashboardMetric("#team-tab-content", bucketLabels, "dashboard-metrics-content-md")
 		});
-
-		<?php echo file_get_contents('../js/breach-search.js'); ?>
 	</script>
 
 

@@ -48,14 +48,12 @@
 		</div>
 	</main>
 
-	<script>
-		// deployDP('cb-team-breach', '<?= $cb_datapage_prefix ?>ef0488b6fd5a42668381/emb');
-	</script>
 	<script src="../js/dashboard-relate-accounts.js?v=<?php echo date('YmdHis'); ?>"></script>
-
 	<script src="../js/dashboard-metrics.js?v=<?php echo date('YmdHis'); ?>"></script>
 	<script src="../js/scratchpad-filter.js?v=<?php echo date('YmdHis'); ?>"></script>
 	<script src="../js/dashboard-deal-work-queue.js?v=<?php echo date('YmdHis'); ?>"></script>
+	<script src="../js/breach-search-v2.js?v=<?php echo date('YmdHis'); ?>"></script>
+
 	<link rel="stylesheet" href="../css/dashboard-metrics.css">
 	
 	<script>

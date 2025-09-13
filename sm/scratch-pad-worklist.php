@@ -34,7 +34,7 @@
 
             <div class="cb-report mb-3">
                 <div class="table-header mb-2"><strong>Breach/Deal Termination Work Queue</strong></div>
-                <div class="overflow-auto" id="cb-team-breach">
+                <div id="cb-team-breach">
                     <script type="text/javascript" src="<?= $cb_datapage_prefix ?>618c4b059e5940538a50/emb"></script>
                 </div>
             </div>
@@ -45,18 +45,20 @@
     <script src="../js/dashboard-relate-accounts.js?v=<?php echo date('YmdHis'); ?>"></script>
     <script src="../js/dashboard-metrics.js"></script>
     <script src="../js/dashboard-deal-work-queue.js?v=<?php echo date('YmdHis'); ?>"></script>
+    <script src="../js/breach-search-v2.js?v=<?php echo date('YmdHis'); ?>"></script>
+
     <link rel="stylesheet" href="../css/dashboard-metrics.css">
 
     <script>
         // Dashboard metrics
         var bucketApp_Keys = [
-            "25d5500039a001159a514e4abfd7",
-            "25d5500006ce8ef9da074107ae34",
-            "25d550009daef365cb2348b3b65a",
-            "25d55000570e6ee879aa4ccca281",
-            "25d550003324267a4fcb4139a921",
-            "25d550009f8b1b08830d48139803",
-            "25d55000618c4b059e5940538a50",
+            "39a001159a514e4abfd7",
+            "06ce8ef9da074107ae34",
+            "9daef365cb2348b3b65a",
+            "570e6ee879aa4ccca281",
+            "3324267a4fcb4139a921",
+            "9f8b1b08830d48139803",
+            "618c4b059e5940538a50",
         ]
 
         var bucketLabels = [
@@ -72,7 +74,7 @@
         document.addEventListener("DataPageReady", function() {
             // Provide the parent Div
             makeDashboardMetric(".container", bucketLabels, "dashboard-metrics-content-md")
-        })
+        });
     </script>
 
     <script>

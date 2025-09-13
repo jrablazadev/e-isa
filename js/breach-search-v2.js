@@ -2,8 +2,8 @@ var breach_dps_fields = {
 	"3eb46814cace4cfd9c7a": {
 		// breach team
 		// source field, virtual field
-		status: ["Value6_1", "cbParamVirtual1"],
-		termination_step: ["Value7_1", "cbParamVirtual2"],
+		status: ["Value8_1", "cbParamVirtual1"],
+		termination_step: ["Value9_1", "cbParamVirtual2"],
 	},
 	"6395b6c851194e1c9291": {
 		// isa credit
@@ -14,8 +14,8 @@ var breach_dps_fields = {
 	"4715d70e3b0049f9977e": {
 		// isa team
 		// source field, virtual field
-		status: ["Value7_1", "cbParamVirtual1"],
-		termination_step: ["Value8_1", "cbParamVirtual2"],
+		status: ["Value8_1", "cbParamVirtual1"],
+		termination_step: ["Value9_1", "cbParamVirtual2"],
 	},
 	d8053e16d8d14ecf8c21: {
 		// isa pricing
@@ -38,17 +38,53 @@ var breach_dps_fields = {
 	"7e78bfffce2140e897e4": {
 		// DSM
 		// source field, virtual field
-		status: ["Value4_1", "cbParamVirtual1"],
-		termination_step: ["Value5_1", "cbParamVirtual2"],
+		status: ["Value6_1", "cbParamVirtual1"],
+		termination_step: ["Value7_1", "cbParamVirtual2"],
 	},
 	"3f9f6daf53f7485298ba": {
 		// RVPS
 		// source field, virtual field
-		status: ["Value5_1", "cbParamVirtual1"],
-		termination_step: ["Value6_1", "cbParamVirtual2"],
+		status: ["Value7_1", "cbParamVirtual1"],
+		termination_step: ["Value8_1", "cbParamVirtual2"],
 	},
 	ffc1c7c866bc4df4b5af: {
 		// Tom B.
+		// source field, virtual field
+		status: ["Value8_1", "cbParamVirtual1"],
+		termination_step: ["Value9_1", "cbParamVirtual2"],
+	},
+	f91c845405554b4f85f7: {
+		// DOM
+		// source field, virtual field
+		status: ["Value6_1", "cbParamVirtual1"],
+		termination_step: ["Value7_1", "cbParamVirtual2"],
+	},
+	"004eeaea2c7745e5ae04": {
+		// BDM
+		// source field, virtual field
+		status: ["Value6_1", "cbParamVirtual1"],
+		termination_step: ["Value7_1", "cbParamVirtual2"],
+	},
+	"0e4ea070622a487ebc5e": {
+		// RVPO
+		// source field, virtual field
+		status: ["Value8_1", "cbParamVirtual1"],
+		termination_step: ["Value9_1", "cbParamVirtual2"],
+	},
+	c0cd16c2b63a4409bfc4: {
+		// RSM
+		// source field, virtual field
+		status: ["Value6_1", "cbParamVirtual1"],
+		termination_step: ["Value7_1", "cbParamVirtual2"],
+	},
+	"618c4b059e5940538a50": {
+		// SM
+		// source field, virtual field
+		status: ["Value6_1", "cbParamVirtual1"],
+		termination_step: ["Value7_1", "cbParamVirtual2"],
+	},
+	"372cdb98ea0342b0b0ca": {
+		// TSM/ISM
 		// source field, virtual field
 		status: ["Value6_1", "cbParamVirtual1"],
 		termination_step: ["Value7_1", "cbParamVirtual2"],
@@ -88,6 +124,7 @@ document.addEventListener("DataPageReady", function (event) {
 
 		// multiselect
 		form.find(`*[name="${status_virtual}"]`)
+			.attr("data-actions-box", "true")
 			.attr("title", "-- Status --")
 			.attr("data-selected-text-format", "count")
 			.selectpicker();
@@ -106,6 +143,7 @@ document.addEventListener("DataPageReady", function (event) {
 
 		// multiselect
 		form.find(`*[name="${term_step_virtual}"]`)
+			.attr("data-actions-box", "true")
 			.attr("title", "-- Termination Steps --")
 			.attr("data-selected-text-format", "count")
 			.selectpicker();
@@ -120,14 +158,14 @@ document.addEventListener("DataPageReady", function (event) {
 		).css({ color: "initial" });
 
 		//--------------------------------------------------------------> hide submit button
-		// console.log(
-		// 	$(
-		// 		`form[action*="${appkey_withoutprefix}"] .cbSearchButtonContainer`
-		// 	)
-		// );
 		$(
 			`form[action*="${appkey_withoutprefix}"] .cbSearchButtonContainer`
 		).hide();
+
+		//--------------------------------------------------------------> center filter btn
+		$(`form[action*="${appkey_withoutprefix}"] .ct-filter-btn`)
+			.closest(".cbHTMLBlockContainer")
+			.addClass("text-center");
 	}
 });
 
@@ -167,6 +205,7 @@ document.addEventListener("BeforeFormSubmit", function (event) {
 function reset_breach_search(appkey) {
 	const form = $(`form[action*="${appkey}"]`);
 	form.find("select").val("");
+	form.find('input[type="text"].cbFormTextField').val("");
 	form.find('input[name="cbParamVirtual5"]').val("");
 	form.find('input[name="cbParamVirtual6"]').val("");
 	form.find(".ct-filter-btn").click();

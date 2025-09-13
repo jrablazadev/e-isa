@@ -12,8 +12,8 @@
 
 		<div class="headers bg-dark text-uppercase">STEP 1 WORK LIST (Scratch Pad, Calculator)</div>
 		<div id="scratch-pad-container" class="cb-report mb-3">
-			<!-- <script type="text/javascript" src="<?= $cb_datapage_prefix ?>aca17a2ae9a84c859572/emb"></script> -->
-			<script type="text/javascript" src="<?= $cb_datapage_prefix ?>921e1577bd244afe8a16/emb"></script>		</div>
+			<script type="text/javascript" src="<?= $cb_datapage_prefix ?>921e1577bd244afe8a16/emb"></script>
+		</div>
 
 		<div class="headers bg-dark mb-2">STEP 2 APPROVALS</div>
 		<div>
@@ -51,10 +51,10 @@
 	</main>
 
 	<script src="../js/dashboard-relate-accounts.js?v=<?php echo date('YmdHis'); ?>"></script>
-
 	<script src="../js/dashboard-metrics.js?v<?php echo date('YmdHis')?>"></script>
 	<script src="../js/scratchpad-filter.js?v=<?php echo date('YmdHis'); ?>"></script>
 	<script src="../js/dashboard-deal-work-queue.js?v=<?php echo date('YmdHis'); ?>"></script>
+	<script src="../js/breach-search-v2.js?v=<?php echo date('YmdHis'); ?>"></script>
 
 	<link rel="stylesheet" href="../css/dashboard-metrics.css">
 
@@ -71,7 +71,7 @@
 		document.addEventListener("DataPageReady", function () {
 			// Provide the parent Div
 			makeDashboardMetric(".container")
-		})
+		});	
 	</script>
 
 	<script>

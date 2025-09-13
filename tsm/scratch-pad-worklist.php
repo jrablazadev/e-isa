@@ -40,7 +40,7 @@
 				<script type="text/javascript" src="<?= $cb_datapage_prefix ?>2223af6dd1c9488e8f06/emb"></script>
 			</div>
 
-			<div class="cb-report mb-3">
+			<div class="mb-3">
 				<div class="table-header mb-2"><strong>Breach/Deal Termination Work Queue</strong></div>
 				<script type="text/javascript" src="<?= $cb_datapage_prefix ?>372cdb98ea0342b0b0ca/emb"></script>
 			</div>
@@ -52,6 +52,7 @@
 	<script src="../js/dashboard-metrics.js?v=<?php echo date('YmdHis'); ?>"></script>
 	<script src="../js/scratchpad-filter.js?v=<?php echo date('YmdHis'); ?>"></script>
 	<script src="../js/dashboard-deal-work-queue.js?v=<?php echo date('YmdHis'); ?>"></script>
+	<script src="../js/breach-search-v2.js?v=<?php echo date('YmdHis'); ?>"></script>
 
 	<link rel="stylesheet" href="../css/dashboard-metrics.css">
 	
