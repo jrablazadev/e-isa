@@ -16,18 +16,18 @@ This project uses **Docker** and **Caspio** to provide an easy-to-use developmen
 
 ### 1. Clone the Repository
 
-## bash
+```bash
+git clone https://github.com/National-Coatings-Supplies/e-isa.git
 
-git clone git@github.com:jrablazadev/e-isa.git
+```
+
+### 2. Build and Start the Containers
+
+docker compose up --build
+
+---
 
 ## Prod
 
 - Account ID: caspio.thenetwork-crm.com
 - AppKey: 25d55000
-- Link: https://thenetwork-crm.com/E-ISA
-
-## Staging
-
-- Account ID: caspio.thenetwork-crm.com
-- AppKey: 25d55000
-- Link: https://stage.caspio.com/demo/singlesource/isa_calculator/calculator/login.php
