@@ -1,5 +1,6 @@
 var jqueryConfirm_ExecuteISA;
 var jQueryConfirm_ReturnToContractPhase;
+var jqueryConfirmApproveSOA;
 
 // clone_isa([@field:ISA_ISA_ID])
 function execute_isa(ISA_ID) {
@@ -163,4 +164,26 @@ function return_to_contact_phase(isa_id) {
 			);
 		},
 	});
+}
+
+function send_soa(soa_id) {
+	jqueryConfirmApproveSOA = $.confirm({
+		type: "secondary",
+		columnClass: "col-md-6 col-md-offset-3",
+		icon: false,
+		title: `Send SOA`,
+		theme: "material",
+		content: `<iframe src="./send-soa.php?ID=${soa_id}" style="height:200px;"></iframe>`,
+		backgroundDismiss: false,
+		closeIcon: false,
+		buttons: false,
+	});
+}
+
+function refresh_soa_queue() {
+	for (var key in window.dataPageManagerObj.dataPages) {
+		if (key.search(`${appKeyPrefix}b9f307e2c3fb4ec6a21e`) != -1) {
+			window.dataPageManagerObj.dataPages[key].refresh();
+		}
+	}
 }

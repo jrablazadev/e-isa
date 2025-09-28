@@ -10,6 +10,11 @@
 	<div class="header bg-dark mb-2">STEP 2 APPROVALS</div>
 
 	<div class="cb-report mb-3">
+		<div class="cb-step2-header mb-2">Statement of Accounts Queue</div>
+		<div id="cb-soa-queue"></div>
+	</div>
+
+	<div class="cb-report mb-3">
 		<div class="cb-step2-header mb-2">Deal Termination - My Approval Needed</div>
 		<div class="cb-forapproval-dt" id="cb-team-myapproval-dt"></div>
 	</div>
@@ -77,7 +82,7 @@
 		deployDP('cb-team-exec', `${globalDataPagePrefix}2374e8f1c2ba439fa800/emb`);
 		deployDP('cb-team-myapproval-dt', `${globalDataPagePrefix}f21b4c25029f4d0b8119/emb`);
 		deployDP('cb-team-breach', `${globalDataPagePrefix}4715d70e3b0049f9977e/emb`);
-
+		deployDP('cb-soa-queue', `${globalDataPagePrefix}b9f307e2c3fb4ec6a21e/emb`);
 	</script>
 
 	<script src="../js/dashboard-metrics.js"></script>

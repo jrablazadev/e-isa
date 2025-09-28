@@ -31,7 +31,7 @@
 
     <script src="../js/dashboard-relate-accounts.js?v=<?php echo date('YmdHis'); ?>"></script>
     <script src="../js/scratchpad-filter.js?v=<?php echo date('YmdHis'); ?>"></script>
-    <script src="../js/dashboard-deal-work-queue.js?v=<?php echo date('YmdHis'); ?>"></script>
+    <script src="../js/dashboard-deal-work-queue-v2.js?v=<?php echo date('YmdHis'); ?>"></script>
     <script>
         <?php echo file_get_contents('../js/isa-team-dashboard.js'); ?>
     </script>

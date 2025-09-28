@@ -27,6 +27,7 @@
                         <a class="dropdown-item" href="<?= $cb_datapage_prefix ?>03f873139ffd427baec9" target="_blank">Credit Card Field Report</a>
                         <a class="dropdown-item" href="./manufacturer-color-subscription-hub.php?cbResetParam=1" target="_blank">Manufacturer Color Subscription Hub</a>
                         <a class="dropdown-item" href="./log1c-support-hub.php?cbResetParam=1" target="_blank">Log1c Support Hub</a>
+                        <a class="dropdown-item" href="./soa.php">Statement of Accounts</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown" id="nav-createisa">

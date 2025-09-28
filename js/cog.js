@@ -784,6 +784,7 @@ var cogLinks = {
 		"Rebate Details",
 		"Manufacturer Subscription Fee Summary",
 		"Log1c Subscription Fee Summary",
+		"Request SOA",
 	], // Deal Directory 2
 	f82f8b88518a443d8cea: [
 		"Log AMP - ISA ID",
@@ -2009,6 +2010,12 @@ var cogLinks = {
 	// Document Exception Report
 	"19b3877ad27a414e9e23": ["Attachments"], // SO, AR, SRF, AP, Accounting, SI, AS, Tom Blawsch, CFO, CEO, COO, User Group
 	"9151f78f74d948f8b8be": ["Attachments"], // DOM
+	b9f307e2c3fb4ec6a21e: [
+		"Edit Details",
+		"Related Accounts",
+		"View Attachments",
+		"SOA",
+	], // DOM
 };
 
 /*
@@ -2419,6 +2426,23 @@ $(document).on("click", ".search-related-btn", function (e) {
 	var isa_id = $(this).attr("data-isa-id");
 
 	jc_open_iframe(``, `./related-accounts-search.php`);
+	e.preventDefault();
+});
+
+$(document).on("click", ".request-soa-btn", function (e) {
+	var isa_id = $(this).attr("data-isa-id");
+
+	jc_open_iframe(
+		`ISA ${isa_id}`,
+		`../shared/request-soa.php?ISA_ID=${isa_id}`
+	);
+	e.preventDefault();
+});
+
+$(document).on("click", ".soa-btn", function (e) {
+	var isa_id = $(this).attr("data-isa-id");
+
+	window.open(`${globalDataPagePrefix}28441c3c5d2d43e6a111?ID=${isa_id}`);
 	e.preventDefault();
 });
 
@@ -2978,6 +3002,14 @@ function create_cog(elem) {
 
 			case "Log1c Subscription Fee Summary":
 				cogHTML += `<a href="#${isaId}" class="dropdown-item log1c-subs-fee-summary-btn" data-isa-id="${isaId}" data-isa-name="${isaName}">${link}</a>`;
+				break;
+
+			case "Request SOA":
+				cogHTML += `<a href="#${isaId}" class="dropdown-item request-soa-btn" data-isa-id="${isaId}" data-isa-name="${isaName}">${link}</a>`;
+				break;
+
+			case "SOA":
+				cogHTML += `<a href="#${isaId}" class="dropdown-item soa-btn" data-isa-id="${isaId}" data-isa-name="${isaName}">${link}</a>`;
 				break;
 		}
 	});
