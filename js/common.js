@@ -385,14 +385,14 @@ function view_comments(isaId) {
 	});
 }
 
-function view_comments_of_isa_breach(isaId, GroupId) {
+function view_comments_of_isa_breach(isaId, GroupId, terminationStepId) {
 	$.confirm({
 		scrollToPreviousElement: false,
 		scrollToPreviousElementAnimate: false,
 		type: "secondary",
 		columnClass: "col-md-6 col-md-offset-3",
 		icon: "fa fa-th-list",
-		title: "ISA " + isaId + " - Comment Log",
+		title: `ISA ${isaId} - Comment Log`,
 		theme: "material",
 		content: '<div id="cb-comments"></div> <input type="hidden" class="cb-cancel-reload">',
 		backgroundDismiss: false,
@@ -402,15 +402,11 @@ function view_comments_of_isa_breach(isaId, GroupId) {
 		onOpen: function () {
 			if (GroupId != null) {
 				$("#cb-comments").load(
-					"../shared/comment-log-2-breach.php?ISA_ID=" +
-						isaId +
-						"&GroupId=" +
-						GroupId
+					`../shared/comment-log-2-breach.php?ISA_ID=${isaId}&GroupId=${GroupId}&Termination_Step_ID=${terminationStepId}`
 				);
 			} else {
 				$("#cb-comments").load(
-					"../shared/comment-log-2-breach-view-only.php?ISA_ID=" +
-						isaId
+					`../shared/comment-log-2-breach-view-only.php?ISA_ID=${isaId}&Termination_Step_ID=${terminationStepId}`
 				);
 			}
 

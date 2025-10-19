@@ -37,8 +37,13 @@ document.addEventListener("DataPageReady", function (event) {
 			"cbParamVirtual6", // RVPO
 		];
 
+		let requestorId = $('*[name$="RecordCreated_By"]').val();
+		let requestorName = $('*[name="cbParamVirtual9"]').val();
+
 		let loadedDropdown = 0;
 		let users = {};
+
+		users[requestorName] = requestorId;
 
 		$.each(dropdownSource, function (i, field) {
 			const elem = $(`*[name="${field}"]`);
@@ -125,16 +130,8 @@ const resizeParentIframe = () => {
 
 const constructDropdownOptions = (data) => {
 	let dropdownOption = "";
-	let requestorId = $('*[name$="RecordCreated_By"]').val();
 
 	$.each(data, function (name, id) {
-		console.log(requestorId, id);
-
-		// skip requestor name in dropdown
-		if (requestorId == id) {
-			return;
-		}
-
 		dropdownOption += `<option value="${id}">${name}</option>`;
 	});
 
@@ -144,11 +141,12 @@ const constructDropdownOptions = (data) => {
 };
 
 const usersToEmailMultiSelect = () => {
-	// let field = form.find(`*[name*="RecordUsers_To_Email"]`).val();
-	// field = field.split(" OR ");
+	let requestorId = $('*[name$="RecordCreated_By"]').val();
 
 	// assign default value
-	$(`*[name="cbParamVirtual8"]`).attr("multiple", true).val("");
+	$(`*[name="cbParamVirtual8"]`)
+		.attr("multiple", true)
+		.val([requestorId]);
 
 	// multiselect
 	$(`*[name="cbParamVirtual8"]`)

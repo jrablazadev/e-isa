@@ -1,5 +1,6 @@
 <?php
-$isaId = !empty($_GET['ISA_ID']) ? $_GET['ISA_ID'] : 0;
+    $isaId = !empty($_GET['ISA_ID']) ? $_GET['ISA_ID'] : 0;
+    $termination_Step_ID = !empty($_GET['Termination_Step_ID']) ? $_GET['Termination_Step_ID'] : '';
 ?>
 
 <html>
@@ -33,7 +34,7 @@ $isaId = !empty($_GET['ISA_ID']) ? $_GET['ISA_ID'] : 0;
     deployDP('cb-comment-section', `${globalDataPagePrefix}6c13883bf1f04d14800d/emb?ISA_ID=<?php echo $isaId; ?>`);
     deployDP('cb-comment-page', `${globalDataPagePrefix}53ddbe502d4a477b8cdc/emb?ISA_ID=<?php echo $isaId; ?>`);
     deployDP('cb-comment-resubmitted-exec', `${globalDataPagePrefix}33070c5164a643efaa9f/emb?ISA_ID=<?php echo $isaId; ?>`);
-    deployDP('cb-breach-comment-section', `${globalDataPagePrefix}ed41e5780e824c65afb7/emb?ISA_ID=<?php echo $isaId; ?>`);
+    deployDP('cb-breach-comment-section', `${globalDataPagePrefix}ed41e5780e824c65afb7/emb?ISA_ID=<?php echo $isaId; ?>&Termination_Step_ID=<?php echo $termination_Step_ID; ?>`);
 </script>
 <style>
     .cb-comment-log .cb-report tr[data-cb-name="data"] td,

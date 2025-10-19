@@ -1,12 +1,11 @@
 <?php
-$isaId = !empty($_GET['ISA_ID']) ? $_GET['ISA_ID'] : 0;
-$GroupId = !empty($_GET['GroupId']) ? $_GET['GroupId'] : 0;
+	$isaId = !empty($_GET['ISA_ID']) ? $_GET['ISA_ID'] : 0;
+	$GroupId = !empty($_GET['GroupId']) ? $_GET['GroupId'] : 0;
+	$termination_Step_ID = !empty($_GET['Termination_Step_ID']) ? $_GET['Termination_Step_ID'] : '';
 ?>
 
 <html>
-	<head>
-		<script src="../js/common.js"></script>
-	</head>
+	<head></head>
 	<body class="hide">
 		<main role="main" class="container">
 			<h5>Breach Comments</h5>
@@ -32,7 +31,7 @@ $GroupId = !empty($_GET['GroupId']) ? $_GET['GroupId'] : 0;
 		deployDP('cb-comment-section', `${globalDataPagePrefix}49ab1d24aded4590a4b8/emb?ISA_ID=<?php echo $isaId; ?>&GroupId=<?php echo $GroupId; ?>`);
 		deployDP('cb-comment-page', `${globalDataPagePrefix}8dc0103c061c47f6a71e/emb?ISA_ID=<?php echo $isaId; ?>`);
 		deployDP('cb-comment-resubmitted-exec', `${globalDataPagePrefix}33070c5164a643efaa9f/emb?ISA_ID=<?php echo $isaId; ?>`);
-		deployDP('cb-breach-comment-section', `${globalDataPagePrefix}ed41e5780e824c65afb7/emb?ISA_ID=<?php echo $isaId; ?>`);
+		deployDP('cb-breach-comment-section', `${globalDataPagePrefix}ed41e5780e824c65afb7/emb?ISA_ID=<?php echo $isaId; ?>&Termination_Step_ID=<?php echo $termination_Step_ID; ?>`);
 	</script>
 	<style>
 		.cb-comment-log .cb-report tr[data-cb-name="data"] td,

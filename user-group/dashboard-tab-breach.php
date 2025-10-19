@@ -7,6 +7,7 @@
                 <div id="cb-bwq-container"></div>
         </div>
 	<script src="../js/breach-search-v3.js?v=<?php echo date('YmdHis'); ?>"></script>
+	<script src="../js/breach-comments.js?v=<?php echo date('YmdHis'); ?>"></script>
         <script>
                 deployDP('cb-bwq-container', `${globalDataPagePrefix}3eb46814cace4cfd9c7a/emb`);
         </script>
