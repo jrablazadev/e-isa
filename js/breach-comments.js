@@ -155,3 +155,15 @@ var breach_comments = {
 		});
 	},
 };
+
+var auto_show_breach_comments = 0;
+
+if (urlVars["Show_Breach_Comments"] == "Y" && auto_show_breach_comments == 0) {
+	view_comments_of_isa_breach(
+		urlVars["ISA_ID"],
+		urlVars["Group_ID"],
+		urlVars["Termination_Step_ID"]
+	);
+
+	auto_show_breach_comments++;
+}

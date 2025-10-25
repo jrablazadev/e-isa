@@ -71,7 +71,7 @@ const breach_comments_email_users = {
 		];
 
 		let dropdown_loaded = 0;
-		let data = {};
+		let data = [];
 
 		$.each(dropdowns, function (i, field) {
 			const elem = $(`*[name="${field}"]`);
@@ -81,8 +81,18 @@ const breach_comments_email_users = {
 				$(this)
 					.find("option")
 					.each(function () {
-						data[$(this).html().trim()] =
-							$(this).val();
+						// console.log($(this).val());
+						if ($(this).val() != "") {
+							data.push({
+								id: $(
+									this
+								).val(),
+								name: $(this)
+									.html()
+									.trim(),
+							});
+						}
+
 						dropdown_loaded++;
 
 						// once all dropdown data has been loaded, construct dropdown
@@ -90,15 +100,28 @@ const breach_comments_email_users = {
 							dropdowns.length ==
 							dropdown_loaded
 						) {
-							breach_comments_email_users.construct_dropdown_user_from_glid(
+							data.sort((a, b) =>
+								a.name.localeCompare(
+									b.name
+								)
+							);
+
+							breach_comments_email_users.construct_tabular_report(
 								data
 							);
-							breach_comments_email_users.multiselect(
-								"cbParamVirtual1"
-							);
-							breach_comments_email_users.multiselect(
-								"cbParamVirtual2"
-							);
+
+							$(
+								'*[name="cbParamVirtual1"]'
+							)
+								.parent()
+								.hide();
+							$(
+								'*[name="cbParamVirtual1"]'
+							)
+								.parent()
+								.prev()
+								.hide();
+
 							breach_comments_email_users.multiselect(
 								"cbParamVirtual3"
 							);
@@ -126,6 +149,83 @@ const breach_comments_email_users = {
 		$('*[name="cbParamVirtual2"]').html(dropdown_options);
 	},
 
+	construct_tabular_report: function (users_glid) {
+		// return false;
+
+		let users_breach_team_html = "";
+		let user_breach_team_count = 0;
+
+		$('*[name="cbParamVirtual1"] option').each(function () {
+			if ($(this).val() == "") {
+				return true;
+			}
+
+			users_breach_team_html += `
+					<tr>
+						<td class="text-center">
+							<input type="checkbox" class="ct-user-row" value="${$(this).val()}">
+						</td>
+						<td>${$(this).html().trim()}</td>
+					</tr>
+				`;
+
+			user_breach_team_count++;
+		});
+
+		if (user_breach_team_count) {
+			users_breach_team_html = `
+					<tr>
+						<th colspan="3" class="bg-light">Breach Team</th>
+					</tr>
+					${users_breach_team_html}
+				`;
+		}
+
+		let users_glid_html = "";
+		let users_glid_html_count = "";
+
+		$.each(users_glid, function (index, row) {
+			console.log(row);
+
+			users_glid_html += `
+					<tr>
+						<td class="text-center">
+							<input type="checkbox" class="ct-user-row" value="${row.id}">
+						</td>
+						<td>${row.name}</td>
+					</tr>
+				`;
+
+			users_glid_html_count++;
+		});
+
+		if (users_glid_html_count) {
+			users_glid_html = `
+					<tr>
+						<th colspan="3" class="bg-light">Related Accounts GLID Users</th>
+					</tr>
+					${users_glid_html}
+				`;
+		}
+
+		let html = `
+			<table class="table table-sm table-bordered mb-0">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Name</th>
+					</tr>
+				</thead>
+				<tbody>
+					${user_breach_team_count > 0 ? users_breach_team_html : ""}
+					${users_glid_html_count > 0 ? users_glid_html : ""}
+				</tbody>
+			</table>
+		`;
+
+		$("#ct-user-list").html(html);
+	},
+
 	multiselect: function (elem) {
 		$(`*[name="${elem}"]`).attr("multiple", true).val([]);
 
@@ -143,25 +243,24 @@ const breach_comments_email_users = {
 	},
 
 	dp_submit: function () {
-		const users_breach = $('*[name="cbParamVirtual1"]').val();
-		const users_glid = $('*[name="cbParamVirtual2"]').val();
-		const users_all = $('*[name="cbParamVirtual3"]').val();
+		const selected_users_in_table = $(
+			"#ct-user-list .ct-user-row:checked"
+		)
+			.map(function () {
+				return $(this).val();
+			})
+			.get();
+		const selected_users_in_dropdown = $(
+			'*[name="cbParamVirtual3"]'
+		).val();
 		let selected_users = [].concat(
-			users_breach,
-			users_glid,
-			users_all
+			selected_users_in_table,
+			selected_users_in_dropdown
 		);
 
 		selected_users = [...new Set(selected_users)];
 
 		$(".ctFormError").remove();
-
-		// console.log({
-		// 	users_breach,
-		// 	users_glid,
-		// 	users_all,
-		// 	selected_users,
-		// });
 
 		if (selected_users.length == 0) {
 			$('*[name="Submit"]')
