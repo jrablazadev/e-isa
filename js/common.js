@@ -35,6 +35,7 @@ function deployDP_v2(containerID, appKey, params) {
 		container.appendChild(dataPageScript);
 	}
 }
+
 //open modal v4
 function openModal_v4(modalTitle, appKey, params, size) {
 	$("#cb-modal-body").html("");
@@ -164,6 +165,83 @@ function update_progress_bar() {
 				$(this).addClass("active");
 
 				// console.log('active');
+			} else {
+				// skip when direction to pay
+				if ($(this).hasClass("cb-d2p")) {
+					if (CurrentSectionNo == 11) {
+						$(this).addClass("disabled");
+					}
+
+					return true;
+				}
+
+				if (i + 1 > LastSectionNo) {
+					$(this)
+						.find("a")
+						.attr(
+							"href",
+							"javascript:void(0)"
+						);
+					$(this).find("a").addClass("disabled");
+				}
+
+				$(this).addClass("disabled");
+			}
+		});
+	}
+
+	// $('#progressbar-d2p').removeClass('disabled');
+	// $('#progressbar-d2p a').removeClass('disabled');
+}
+
+function update_progress_bar_industrial() {
+	var LastSectionNo = Number($("#NPC_LastSectionNo").val());
+	var CurrentSectionNo = Number($("#NPC_CurrentSectionNo").val());
+
+	CurrentSectionNo = isNaN(CurrentSectionNo) ? 0 : CurrentSectionNo;
+
+	if (CurrentSectionNo == 0) {
+		$(".progressbar a").addClass("disabled");
+		$(".progressbar a").attr("href", "javascript:void(0)");
+
+		$("#progressbar-template-new").addClass("active");
+		$("#progressbar-template-update").addClass("active");
+		$("#progressbar-customer-sales-no-growth").addClass("disabled");
+	} else {
+		$(".progressbar li").each(function (i) {
+			// console.log((i), CurrentSectionNo, LastSectionNo, this);
+
+			//current page
+			if (i + 1 <= CurrentSectionNo) {
+				$(this).addClass("active");
+				const progressbarItems =
+					document.querySelectorAll(
+						".progressbar li"
+					);
+
+				let setDisabled = false;
+
+				progressbarItems.forEach((item) => {
+					if (setDisabled) {
+						item.classList.remove(
+							"current",
+							"active"
+						);
+						item.classList.add("disabled");
+					}
+
+					// Set the flag to true after the first 'current active' li
+					if (
+						item.classList.contains(
+							"current"
+						) &&
+						item.classList.contains(
+							"active"
+						)
+					) {
+						setDisabled = true;
+					}
+				});
 			} else {
 				// skip when direction to pay
 				if ($(this).hasClass("cb-d2p")) {
@@ -358,7 +436,8 @@ function deployDP(containerId, dataPageSrc) {
 	document.getElementById(containerId).appendChild(dataPageScript);
 }
 
-function view_comments(isaId) {
+function view_comments(isaId, dealDiscountBasis = "") {
+	// console.log(dealDiscountBasis)
 	$.confirm({
 		scrollToPreviousElement: false,
 		scrollToPreviousElementAnimate: false,
@@ -374,8 +453,12 @@ function view_comments(isaId) {
 		useBootstrap: false,
 		onOpen: function () {
 			$("#cb-comments").load(
-				"../shared/comment-log-2.php?ISA_ID=" + isaId
+				"../shared/comment-log-2.php?ISA_ID=" +
+					isaId +
+					"&Deal_Discount_Basis=" +
+					encodeURIComponent(dealDiscountBasis)
 			);
+			// $("#cb-comments").load("../shared/comment-log-2.php?ISA_ID=" + isaId);
 
 			$(".cb-cog").hide();
 		},
@@ -637,6 +720,30 @@ function append_home_run_btn(appKey) {
 
 			break;
 
+		case (appKeyPrefix + "dd1c99b8bde74fa8ad56").toLowerCase(): //industrial section 2
+			sectionId = 2.2; // industrial
+			btn =
+				'<a href="javascript:void(0)" onclick="home_run(' +
+				sectionId +
+				')" class="btn-success cb-home-run-btn">' +
+				saveToReturns +
+				"</a>";
+			if ($(".cb-home-run-btn").length) {
+				$(".cb-home-run-btn").remove();
+			}
+
+			// $('.cbBackButtonContainer .cb-save-n-next-btn').insertAfter(btn);
+
+			setTimeout(function () {
+				$(btn).insertBefore(
+					$(
+						".cb-meet-comp-btns .cb-save-n-next-btn"
+					)
+				);
+			}, 1000);
+
+			break;
+
 		case (appKeyPrefix + "e67cd6ecfba94394a8b7").toLowerCase(): // Section 3
 			btn =
 				'<a href="javascript:void(0)" onclick="home_run(' +
@@ -751,6 +858,21 @@ function home_run(sectionId) {
 
 			break;
 
+		case 2.2: //industrial
+			$(
+				'form[action*="dd1c99b8bde74fa8ad56"] *[name="EditRecordLast_Section_No"]'
+			).val("9");
+			console.log(
+				$(
+					'form[action*="dd1c99b8bde74fa8ad56"] *[name="EditRecordLast_Section_No"]'
+				).val()
+			);
+			$(
+				'form[action*="dd1c99b8bde74fa8ad56"] *[name="Mod0EditRecord"]'
+			).click();
+
+			break;
+
 		case 3:
 			$("div.cb-cswgf-btns a.nextbtn")
 				.addClass("disabled")
@@ -776,8 +898,15 @@ function home_run(sectionId) {
 //for template-update section 1 only
 function home_run_update(sectionId) {
 	var mpoDetails = $('*[name="EditRecordMPO_Details"]').val();
-	console.log(mpoDetails);
-	if (mpoDetails == "") {
+	var dealDiscountBasis = $(
+		'*[name="EditRecordDeal_Discount_Basis"]'
+	).val();
+	// console.log(mpoDetails);
+	if (
+		mpoDetails == "" &&
+		(dealDiscountBasis == "Refinish Discount" ||
+			dealDiscountBasis == "")
+	) {
 		alert("MPO Details is required, please select 1 or more item");
 		$(".cb-home-run-btn-update").removeClass("disabled");
 		// location.reload();
@@ -1175,7 +1304,15 @@ $(document).on(
 	'form[action*="86d1ebc230c74a9182dc"] input[name="Mod0EditRecord"]',
 	function () {
 		var mpoDetails = $('*[name="EditRecordMPO_Details"]').val();
-		if (mpoDetails == "") {
+		var dealDiscountBasis = $(
+			'*[name="EditRecordDeal_Discount_Basis"]'
+		).val();
+		// console.log(mpoDetails);
+		if (
+			mpoDetails == "" &&
+			(dealDiscountBasis == "Refinish Discount" ||
+				dealDiscountBasis == "")
+		) {
 			alert(
 				"MPO Details is required, please select 1 or more item"
 			);
@@ -1437,15 +1574,27 @@ document.addEventListener("DataPageReady", function (e) {
 /*---deploy document hub redirection button in view details
     approval-view-details.php and deal-sheet-view.php
     */
-setTimeout(function () {
+// setTimeout(function () {
+//   var docuHub = document.querySelector(".cb-document-hub");
+
+//   if (docuHub) {
+//     // console.log(docuHub)
+//     // console.log(1,docuHub.querySelector('img'))
+//     loadDocuHubBtn();
+//   }
+// }, 1500);
+
+var checkDocuHub = setInterval(function () {
 	var docuHub = document.querySelector(".cb-document-hub");
 
 	if (docuHub) {
-		// console.log(docuHub)
-		// console.log(1,docuHub.querySelector('img'))
-		loadDocuHubBtn();
+		if (!docuHub.hasChildNodes()) {
+			loadDocuHubBtn();
+		} else {
+			clearInterval(checkDocuHub);
+		}
 	}
-}, 1500);
+}, 500);
 
 function loadDocuHubBtn() {
 	var docuHub = document.querySelector(".cb-document-hub");
